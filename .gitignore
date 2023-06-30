@@ -1,0 +1,14 @@
+#ignore modelsim simulation files
+**/[Mm]odelsim/rtl_work/**
+**/[Mm]odelsim/work/**
+**/[Mm]odelsim/vsim.wlf
+**/[Mm]odelsim/msim_transcript
+
+#ignore modelsim from quartus
+**/[Qq]uartus/simulation/**
+**/[Qq]uartus/db/**
+**/[Qq]uartus/incremental_db/**
+**/[Qq]uartus/output_files/**
+
+#ignore zips 
+**/*.zip
