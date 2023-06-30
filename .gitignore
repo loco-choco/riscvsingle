@@ -12,3 +12,5 @@
 
 #ignore zips 
 **/*.zip
+#ignore backup files
+**/*.bak
