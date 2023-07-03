@@ -14,5 +14,5 @@ begin
 		y <= d0 when "00",
 	  		 d1 when "01",
 		     d2 when "10",
-		     (others => '0')  when others;
+		     (others => '-')  when others;
 end;

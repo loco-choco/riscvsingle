@@ -1,6 +1,5 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
-use WORK.riscv_pkg.all;
 
 entity controller is
 	port(op: in STD_LOGIC_VECTOR(6 downto 0);

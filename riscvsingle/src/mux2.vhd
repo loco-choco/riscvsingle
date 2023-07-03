@@ -10,7 +10,7 @@ end;
 
 architecture behave of mux2 is
 begin
-	process(s, d0) begin
+	process(s, d0, d1) begin
 		case s is
 			when '1' => y <= d1;
 			when others => y <= d0;

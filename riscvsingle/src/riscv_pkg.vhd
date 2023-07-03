@@ -125,10 +125,9 @@ package riscv_pkg is
 end riscv_pkg;
 package body riscv_pkg is
   function to_integer(constant vec: STD_LOGIC_VECTOR) return integer is
-    alias xvec: STD_LOGIC_VECTOR(vec'LENGTH - 1 downto 0) is vec;
     variable result: integer := 0;
   begin
-    for i in xvec'RANGE loop
+    for i in vec'LENGTH - 1 downto 0 loop
       result := result + result;
       if xvec(i) = '1' then
         result := result + 1;
@@ -137,13 +136,11 @@ package body riscv_pkg is
     return result;
   end to_integer;
   function "+" (constant a: STD_LOGIC_VECTOR; constant b: STD_LOGIC_VECTOR) return STD_LOGIC_VECTOR is
-    alias xa: STD_LOGIC_VECTOR(a'LENGTH - 1 downto 0) is a;
-    alias xb: STD_LOGIC_VECTOR(a'LENGTH - 1 downto 0) is b;
     variable result: STD_LOGIC_VECTOR(a'LENGTH - 1 downto 0) := (others => '0');
     variable carry: STD_LOGIC := '0';
     variable halfSum: STD_LOGIC;
   begin
-    for i in 0 to xa'LENGTH - 1 loop
+    for i in 0 to a'LENGTH - 1 loop
       halfSum:= xa(i) or xb(i);
       result(i) := halfSum xor carry;
       carry:= (xa(i) and xb(i)) or (halfSum and carry);

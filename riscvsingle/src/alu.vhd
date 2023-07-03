@@ -4,7 +4,7 @@ use IEEE.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
 entity alu is
-	generic(width: integer := 1);
+	generic(width: integer := 32);
 	port(a, b: in STD_LOGIC_VECTOR(width - 1 downto 0);
 			ALUControl: in STD_LOGIC_VECTOR(2 downto 0);
 			ALUResult: buffer STD_LOGIC_VECTOR(width - 1 downto 0);

@@ -10,7 +10,7 @@ entity top is
 end;
 
 architecture test of top is
-	component riscvsingle
+	component riscvsingle	generic(width: integer);
 		port(clk, reset: in STD_LOGIC;
 			PC: out STD_LOGIC_VECTOR(width - 1 downto 0);
 			Instr: in STD_LOGIC_VECTOR(width - 1 downto 0);
@@ -18,11 +18,11 @@ architecture test of top is
 			ALUResult, WriteData: out STD_LOGIC_VECTOR(width - 1 downto 0);
 			ReadData: in STD_LOGIC_VECTOR(width - 1 downto 0));
 	end component;
-	component imem
+	component imem generic(width: integer);
 		port(a: in STD_LOGIC_VECTOR(width - 1 downto 0);
 			rd: out STD_LOGIC_VECTOR(width - 1 downto 0));
 	end component;
-	component dmem
+	component dmem generic(width: integer);
 		port(clk, we: in STD_LOGIC;
 			a, wd: in STD_LOGIC_VECTOR(width - 1 downto 0);
 			rd: out STD_LOGIC_VECTOR(width - 1 downto 0));
@@ -31,10 +31,10 @@ architecture test of top is
 	signal PC, Instr, ReadData: STD_LOGIC_VECTOR(width - 1 downto 0);
 begin
 	-- instantiate processor and memories
-	rvsingle: riscvsingle port map( clk, reset, PC, Instr,
+	rvsingle: riscvsingle generic map(width) port map( clk, reset, PC, Instr,
 									MemWrite, DataAdr,
 									WriteData, ReadData);
-	imem1: imem port map(PC, Instr);
-	dmem1: dmem port map( clk, MemWrite, DataAdr, WriteData,
+	imem1: imem generic map(width) port map(PC, Instr);
+	dmem1: dmem generic map(width) port map(clk, MemWrite, DataAdr, WriteData,
 	ReadData);
 end;
