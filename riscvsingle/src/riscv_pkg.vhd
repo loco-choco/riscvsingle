@@ -129,7 +129,7 @@ package body riscv_pkg is
   begin
     for i in vec'LENGTH - 1 downto 0 loop
       result := result + result;
-      if xvec(i) = '1' then
+      if vec(i) = '1' then
         result := result + 1;
       end if;
     end loop;
@@ -141,9 +141,9 @@ package body riscv_pkg is
     variable halfSum: STD_LOGIC;
   begin
     for i in 0 to a'LENGTH - 1 loop
-      halfSum:= xa(i) or xb(i);
+      halfSum:= a(i) or b(i);
       result(i) := halfSum xor carry;
-      carry:= (xa(i) and xb(i)) or (halfSum and carry);
+      carry:= (a(i) and b(i)) or (halfSum and carry);
     end loop;
     return result;
   end "+";
