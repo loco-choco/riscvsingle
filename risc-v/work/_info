@@ -14,7 +14,7 @@ Z0 w1638153074
 Z1 DPx4 ieee 20 numeric_std_unsigned 0 22 L9z`>=>LNY9h8oAIomUKm3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 53
+!i122 70
 Z4 d/home/locochoco/vhdl-materia/risc-v
 Z5 8/home/locochoco/vhdl-materia/risc-v/adder.vhd
 Z6 F/home/locochoco/vhdl-materia/risc-v/adder.vhd
@@ -24,9 +24,9 @@ V[E`4f8ObH^a;IAiEi^^ki0
 !s100 @c@Klno7n92Zd5e6W:Y;d2
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1689035440
+Z8 !s110 1689097365
 !i10b 1
-Z9 !s108 1689035440.000000
+Z9 !s108 1689097365.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/adder.vhd|
 Z11 !s107 /home/locochoco/vhdl-materia/risc-v/adder.vhd|
 !i113 1
@@ -37,7 +37,7 @@ R1
 R2
 R3
 DEx4 work 5 adder 0 22 [E`4f8ObH^a;IAiEi^^ki0
-!i122 53
+!i122 70
 l11
 L10 4
 V]^20>>HHjSa8W<N5IE>4S0
@@ -53,12 +53,12 @@ R11
 R12
 R13
 Ealu
-Z14 w1689034864
+Z14 w1689097363
 Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R2
 R3
-!i122 54
+!i122 71
 R4
 Z17 8/home/locochoco/vhdl-materia/risc-v/alu.vhd
 Z18 F/home/locochoco/vhdl-materia/risc-v/alu.vhd
@@ -68,11 +68,11 @@ V@Rd<8F@3czl@9c4^dZnh[3
 !s100 z3c<:hfTzSf674Y@AW[:K0
 R7
 32
-R8
+Z19 !s110 1689097366
 !i10b 1
 R9
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/alu.vhd|
-Z20 !s107 /home/locochoco/vhdl-materia/risc-v/alu.vhd|
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/alu.vhd|
+Z21 !s107 /home/locochoco/vhdl-materia/risc-v/alu.vhd|
 !i113 1
 R12
 R13
@@ -82,40 +82,40 @@ R16
 R2
 R3
 DEx4 work 3 alu 0 22 @Rd<8F@3czl@9c4^dZnh[3
-!i122 54
+!i122 71
 l16
 L14 31
-V8Y`4ogMeNOeEU9a^HGZ9Z3
-!s100 >X6?0P_Sgd1;^Z1X^@F3b1
+Vc_TTS<4[aB]YChTCAR;TJ2
+!s100 EZfUN1o[KYR5>S2hIRLP^3
 R7
 32
-R8
+R19
 !i10b 1
 R9
-R19
 R20
+R21
 !i113 1
 R12
 R13
 Ealudec
-Z21 w1638154534
+Z22 w1638154534
 R2
 R3
-!i122 55
+!i122 72
 R4
-Z22 8/home/locochoco/vhdl-materia/risc-v/aludec.vhd
-Z23 F/home/locochoco/vhdl-materia/risc-v/aludec.vhd
+Z23 8/home/locochoco/vhdl-materia/risc-v/aludec.vhd
+Z24 F/home/locochoco/vhdl-materia/risc-v/aludec.vhd
 l0
 L4 1
 VhHLZ55YBRaWz:i=E@>JTK3
 !s100 6G8GR0iILUT5<bI;dd7BU2
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/aludec.vhd|
-Z25 !s107 /home/locochoco/vhdl-materia/risc-v/aludec.vhd|
+Z25 !s108 1689097366.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/aludec.vhd|
+Z27 !s107 /home/locochoco/vhdl-materia/risc-v/aludec.vhd|
 !i113 1
 R12
 R13
@@ -123,40 +123,40 @@ Abehave
 R2
 R3
 DEx4 work 6 aludec 0 22 hHLZ55YBRaWz:i=E@>JTK3
-!i122 55
+!i122 72
 l14
 L12 22
 ViE[MhYm9MKi]hiNkD^H970
 !s100 R]Y2EfKhBBl>fXo<@3S2S2
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R24
 R25
+R26
+R27
 !i113 1
 R12
 R13
 Econtroller
-Z26 w1638152546
+Z28 w1638152546
 R2
 R3
-!i122 56
+!i122 73
 R4
-Z27 8/home/locochoco/vhdl-materia/risc-v/controller.vhd
-Z28 F/home/locochoco/vhdl-materia/risc-v/controller.vhd
+Z29 8/home/locochoco/vhdl-materia/risc-v/controller.vhd
+Z30 F/home/locochoco/vhdl-materia/risc-v/controller.vhd
 l0
 L4 1
 VdCf`o5IfzK?36]TBZ7Mo]3
 !s100 =`Az5f]eW2^3_=Mch8^o:1
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/controller.vhd|
-Z30 !s107 /home/locochoco/vhdl-materia/risc-v/controller.vhd|
+R25
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/controller.vhd|
+Z32 !s107 /home/locochoco/vhdl-materia/risc-v/controller.vhd|
 !i113 1
 R12
 R13
@@ -164,41 +164,41 @@ Astruct
 R2
 R3
 DEx4 work 10 controller 0 22 dCf`o5IfzK?36]TBZ7Mo]3
-!i122 56
+!i122 73
 l37
 L17 26
 VAz__^ARhz:MTROS2OWFKi0
 !s100 BC7SZKS_a9>4]zNCk7Ba70
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R29
-R30
+R25
+R31
+R32
 !i113 1
 R12
 R13
 Edatapath
-Z31 w1638154740
+Z33 w1638154740
 R16
 R2
 R3
-!i122 57
+!i122 74
 R4
-Z32 8/home/locochoco/vhdl-materia/risc-v/datapath.vhd
-Z33 F/home/locochoco/vhdl-materia/risc-v/datapath.vhd
+Z34 8/home/locochoco/vhdl-materia/risc-v/datapath.vhd
+Z35 F/home/locochoco/vhdl-materia/risc-v/datapath.vhd
 l0
 L5 1
 Ve49JM21[_k`mUb;UU2z:R2
 !s100 aeY?oY@ckiUZgX;3CBKSA2
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/datapath.vhd|
-Z35 !s107 /home/locochoco/vhdl-materia/risc-v/datapath.vhd|
+R25
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/datapath.vhd|
+Z37 !s107 /home/locochoco/vhdl-materia/risc-v/datapath.vhd|
 !i113 1
 R12
 R13
@@ -207,41 +207,41 @@ R16
 R2
 R3
 DEx4 work 8 datapath 0 22 e49JM21[_k`mUb;UU2z:R2
-!i122 57
+!i122 74
 l62
 L19 63
 V]UMo40?R7jYZmVLg30A1K0
 !s100 fm;i>2<bG?e3l0f72KEFK1
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R34
-R35
+R25
+R36
+R37
 !i113 1
 R12
 R13
 Edmem
-Z36 w1638154978
+Z38 w1689097218
 R1
 R2
 R3
-!i122 58
+!i122 75
 R4
-Z37 8/home/locochoco/vhdl-materia/risc-v/dmem.vhd
-Z38 F/home/locochoco/vhdl-materia/risc-v/dmem.vhd
+Z39 8/home/locochoco/vhdl-materia/risc-v/dmem.vhd
+Z40 F/home/locochoco/vhdl-materia/risc-v/dmem.vhd
 l0
 L6 1
 V:IaiLb^REbUPW=fR0k1?e1
 !s100 6SX?Nn:M9_JcC52lT6n]60
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/dmem.vhd|
-Z40 !s107 /home/locochoco/vhdl-materia/risc-v/dmem.vhd|
+R25
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/dmem.vhd|
+Z42 !s107 /home/locochoco/vhdl-materia/risc-v/dmem.vhd|
 !i113 1
 R12
 R13
@@ -250,40 +250,40 @@ R1
 R2
 R3
 DEx4 work 4 dmem 0 22 :IaiLb^REbUPW=fR0k1?e1
-!i122 58
+!i122 75
 l13
 L12 18
 Vj=<50P<7Hmk0g2B]8eXhz1
 !s100 ^J;MZA_L?bno3U:;j11JA1
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R39
-R40
+R25
+R41
+R42
 !i113 1
 R12
 R13
 Eextend
-Z41 w1638153382
+R38
 R2
 R3
-!i122 59
+!i122 76
 R4
-Z42 8/home/locochoco/vhdl-materia/risc-v/extend.vhd
-Z43 F/home/locochoco/vhdl-materia/risc-v/extend.vhd
+Z43 8/home/locochoco/vhdl-materia/risc-v/extend.vhd
+Z44 F/home/locochoco/vhdl-materia/risc-v/extend.vhd
 l0
 L4 1
 V;9R_86872?em;M9YQKZAS3
 !s100 :nbDYW<SJ=C:5`lgR_5:R0
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/extend.vhd|
-Z45 !s107 /home/locochoco/vhdl-materia/risc-v/extend.vhd|
+R25
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/extend.vhd|
+Z46 !s107 /home/locochoco/vhdl-materia/risc-v/extend.vhd|
 !i113 1
 R12
 R13
@@ -291,41 +291,41 @@ Abehave
 R2
 R3
 DEx4 work 6 extend 0 22 ;9R_86872?em;M9YQKZAS3
-!i122 59
+!i122 76
 l11
 L10 25
 VklLgNXJA:Mb:2HSo^?@jl0
 !s100 j0_aRfM1aUkPeP]_dUNW?0
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R44
+R25
 R45
+R46
 !i113 1
 R12
 R13
 Eflopenr
-Z46 w1638154918
+Z47 w1638154918
 R16
 R2
 R3
-!i122 60
+!i122 77
 R4
-Z47 8/home/locochoco/vhdl-materia/risc-v/flopenr.vhd
-Z48 F/home/locochoco/vhdl-materia/risc-v/flopenr.vhd
+Z48 8/home/locochoco/vhdl-materia/risc-v/flopenr.vhd
+Z49 F/home/locochoco/vhdl-materia/risc-v/flopenr.vhd
 l0
 L5 1
 VQ<XcLoO032Ch8]AKnA_aS2
 !s100 IkH8m2A0USQUf>>0eMaQN3
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/flopenr.vhd|
-Z50 !s107 /home/locochoco/vhdl-materia/risc-v/flopenr.vhd|
+R25
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/flopenr.vhd|
+Z51 !s107 /home/locochoco/vhdl-materia/risc-v/flopenr.vhd|
 !i113 1
 R12
 R13
@@ -334,27 +334,27 @@ R16
 R2
 R3
 DEx4 work 7 flopenr 0 22 Q<XcLoO032Ch8]AKnA_aS2
-!i122 60
+!i122 77
 l13
-Z51 L12 8
+Z52 L12 8
 V4gV^kQe]lgenB^`]X3mQ;3
 !s100 @1EBAf:R;=R@jGQg21^461
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R49
+R25
 R50
+R51
 !i113 1
 R12
 R13
 Eflopr
-Z52 w1638153384
+R38
 R16
 R2
 R3
-!i122 61
+!i122 78
 R4
 Z53 8/home/locochoco/vhdl-materia/risc-v/flopr.vhd
 Z54 F/home/locochoco/vhdl-materia/risc-v/flopr.vhd
@@ -364,9 +364,9 @@ VoI;z?IfRkLJZb3V4_[Md_3
 !s100 2nQf4cMlWZmz8^njh2XaC0
 R7
 32
-R8
+R19
 !i10b 1
-R9
+R25
 Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/flopr.vhd|
 Z56 !s107 /home/locochoco/vhdl-materia/risc-v/flopr.vhd|
 !i113 1
@@ -377,85 +377,85 @@ R16
 R2
 R3
 DEx4 work 5 flopr 0 22 oI;z?IfRkLJZb3V4_[Md_3
-!i122 61
+!i122 78
 l13
-R51
+R52
 VH=ZF0d=XlJ;;znm7Yk:Hm0
 !s100 IfKD`KA6jGYc6>hREI6;A1
 R7
 32
-R8
+R19
 !i10b 1
-R9
+R25
 R55
 R56
 !i113 1
 R12
 R13
 Eimem
-Z57 w1689035429
-Z58 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R38
+Z57 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 R1
 R2
 R3
-!i122 62
+!i122 79
 R4
-Z59 8/home/locochoco/vhdl-materia/risc-v/imem.vhd
-Z60 F/home/locochoco/vhdl-materia/risc-v/imem.vhd
+Z58 8/home/locochoco/vhdl-materia/risc-v/imem.vhd
+Z59 F/home/locochoco/vhdl-materia/risc-v/imem.vhd
 l0
 L7 1
 VbaGgI@d;c46ZmLGiX3O821
 !s100 Q2jOQSYW4fKff_6=hmkfl0
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/imem.vhd|
-Z62 !s107 /home/locochoco/vhdl-materia/risc-v/imem.vhd|
+R25
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/imem.vhd|
+Z61 !s107 /home/locochoco/vhdl-materia/risc-v/imem.vhd|
 !i113 1
 R12
 R13
 Abehave
-R58
+R57
 R1
 R2
 R3
 DEx4 work 4 imem 0 22 baGgI@d;c46ZmLGiX3O821
-!i122 62
+!i122 79
 l35
 L12 29
 VZ[R?cRAIKSJ]H=:UV<65f1
 !s100 Ob[V7Y5zHcFPH_gGJ`_Y80
 R7
 32
-R8
+R19
 !i10b 1
-R9
+R25
+R60
 R61
-R62
 !i113 1
 R12
 R13
 Emaindec
-Z63 w1638152820
+Z62 w1638152820
 R2
 R3
-!i122 63
+!i122 80
 R4
-Z64 8/home/locochoco/vhdl-materia/risc-v/maindec.vhd
-Z65 F/home/locochoco/vhdl-materia/risc-v/maindec.vhd
+Z63 8/home/locochoco/vhdl-materia/risc-v/maindec.vhd
+Z64 F/home/locochoco/vhdl-materia/risc-v/maindec.vhd
 l0
 L4 1
 VI^9[:35nZ]IEBcRi`KIBl0
 !s100 <JLM]dmEQ;dENLMNh7dEf0
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/maindec.vhd|
-Z67 !s107 /home/locochoco/vhdl-materia/risc-v/maindec.vhd|
+R25
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/maindec.vhd|
+Z66 !s107 /home/locochoco/vhdl-materia/risc-v/maindec.vhd|
 !i113 1
 R12
 R13
@@ -463,40 +463,40 @@ Abehave
 R2
 R3
 DEx4 work 7 maindec 0 22 I^9[:35nZ]IEBcRi`KIBl0
-!i122 63
+!i122 80
 l16
 L14 19
 V2V1?gg@zKJ8R??g0fUi1T0
 !s100 Cb5cnQiHOL>B^UGW:;J0U0
 R7
 32
-R8
+R19
 !i10b 1
-R9
+R25
+R65
 R66
-R67
 !i113 1
 R12
 R13
 Emux2
-Z68 w1638153430
+R38
 R2
 R3
-!i122 64
+!i122 81
 R4
-Z69 8/home/locochoco/vhdl-materia/risc-v/mux2.vhd
-Z70 F/home/locochoco/vhdl-materia/risc-v/mux2.vhd
+Z67 8/home/locochoco/vhdl-materia/risc-v/mux2.vhd
+Z68 F/home/locochoco/vhdl-materia/risc-v/mux2.vhd
 l0
 L4 1
 V0Y=gRGDWl:zg_HPnGg3fb1
 !s100 `;>V<P5CfX3E]43fQ3mCi2
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/mux2.vhd|
-Z72 !s107 /home/locochoco/vhdl-materia/risc-v/mux2.vhd|
+R25
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/mux2.vhd|
+Z70 !s107 /home/locochoco/vhdl-materia/risc-v/mux2.vhd|
 !i113 1
 R12
 R13
@@ -504,40 +504,40 @@ Abehave
 R2
 R3
 DEx4 work 4 mux2 0 22 0Y=gRGDWl:zg_HPnGg3fb1
-!i122 64
+!i122 81
 l12
 L11 4
 V;^6zeQEHK;LSh3X>f[1`02
 !s100 M:nc1Xj5=5HA4LRnKZQ?M2
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R71
-R72
+R25
+R69
+R70
 !i113 1
 R12
 R13
 Emux3
-Z73 w1638153452
+R38
 R2
 R3
-!i122 65
+!i122 82
 R4
-Z74 8/home/locochoco/vhdl-materia/risc-v/mux3.vhd
-Z75 F/home/locochoco/vhdl-materia/risc-v/mux3.vhd
+Z71 8/home/locochoco/vhdl-materia/risc-v/mux3.vhd
+Z72 F/home/locochoco/vhdl-materia/risc-v/mux3.vhd
 l0
 L4 1
 VdMHj>4hWP^FjWk7D1cIMO2
 !s100 ljVzU7OXe1@hQ`8F[BfFQ1
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/mux3.vhd|
-Z77 !s107 /home/locochoco/vhdl-materia/risc-v/mux3.vhd|
+R25
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/mux3.vhd|
+Z74 !s107 /home/locochoco/vhdl-materia/risc-v/mux3.vhd|
 !i113 1
 R12
 R13
@@ -545,41 +545,41 @@ Abehave
 R2
 R3
 DEx4 work 4 mux3 0 22 dMHj>4hWP^FjWk7D1cIMO2
-!i122 65
+!i122 82
 l12
 L11 9
 VMhGbC<FnzGo^@FzbPD[g]0
 !s100 6C3b]S^`2JRI3ZRQ^Yz]z3
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R76
-R77
+R25
+R73
+R74
 !i113 1
 R12
 R13
 Eregfile
-Z78 w1638157276
+Z75 w1638157276
 R1
 R2
 R3
-!i122 66
+!i122 83
 R4
-Z79 8/home/locochoco/vhdl-materia/risc-v/regfile.vhd
-Z80 F/home/locochoco/vhdl-materia/risc-v/regfile.vhd
+Z76 8/home/locochoco/vhdl-materia/risc-v/regfile.vhd
+Z77 F/home/locochoco/vhdl-materia/risc-v/regfile.vhd
 l0
 L5 1
 VdMZaJjPBM`3UQm`inX37;1
 !s100 P0@h:imS@5e[^Y7ibB<CN0
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/regfile.vhd|
-Z82 !s107 /home/locochoco/vhdl-materia/risc-v/regfile.vhd|
+R25
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/regfile.vhd|
+Z79 !s107 /home/locochoco/vhdl-materia/risc-v/regfile.vhd|
 !i113 1
 R12
 R13
@@ -588,40 +588,40 @@ R1
 R2
 R3
 DEx4 work 7 regfile 0 22 dMZaJjPBM`3UQm`inX37;1
-!i122 66
+!i122 83
 l17
 L13 24
 V`M]P[]14@Hi`VdA0lK?]22
 !s100 jEUJaS^8335[AQHCh9bWa2
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R81
-R82
+R25
+R78
+R79
 !i113 1
 R12
 R13
 Eriscvsingle
-Z83 w1638152490
+R38
 R2
 R3
-!i122 67
+!i122 84
 R4
-Z84 8/home/locochoco/vhdl-materia/risc-v/riscvsingle.vhd
-Z85 F/home/locochoco/vhdl-materia/risc-v/riscvsingle.vhd
+Z80 8/home/locochoco/vhdl-materia/risc-v/riscvsingle.vhd
+Z81 F/home/locochoco/vhdl-materia/risc-v/riscvsingle.vhd
 l0
 L4 1
 VDO2Y;0RK6F5BMYbCHa62k1
 !s100 MYB@W=NzoiMOhSC_]VEmC2
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/riscvsingle.vhd|
-Z87 !s107 /home/locochoco/vhdl-materia/risc-v/riscvsingle.vhd|
+R25
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/riscvsingle.vhd|
+Z83 !s107 /home/locochoco/vhdl-materia/risc-v/riscvsingle.vhd|
 !i113 1
 R12
 R13
@@ -629,41 +629,41 @@ Astruct
 R2
 R3
 DEx4 work 11 riscvsingle 0 22 DO2Y;0RK6F5BMYbCHa62k1
-!i122 67
+!i122 84
 l42
 L13 39
 Vo]T2li2HJVFYb2FJKO`kA0
 !s100 JaFG^c[A=6R:d8@PfN;S40
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R86
-R87
+R25
+R82
+R83
 !i113 1
 R12
 R13
 Etestbench
-Z88 w1638153584
+R38
 R1
 R2
 R3
-!i122 68
+!i122 85
 R4
-Z89 8/home/locochoco/vhdl-materia/risc-v/testbench.vhd
-Z90 F/home/locochoco/vhdl-materia/risc-v/testbench.vhd
+Z84 8/home/locochoco/vhdl-materia/risc-v/testbench.vhd
+Z85 F/home/locochoco/vhdl-materia/risc-v/testbench.vhd
 l0
 L5 1
 VADnHjOTYPEe@JDN3eYl3h0
 !s100 A;Mm4RhYU5J1`BBTYcHhR3
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/testbench.vhd|
-Z92 !s107 /home/locochoco/vhdl-materia/risc-v/testbench.vhd|
+R25
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/testbench.vhd|
+Z87 !s107 /home/locochoco/vhdl-materia/risc-v/testbench.vhd|
 !i113 1
 R12
 R13
@@ -672,41 +672,41 @@ R1
 R2
 R3
 DEx4 work 9 testbench 0 22 ADnHjOTYPEe@JDN3eYl3h0
-!i122 68
+!i122 85
 l17
 L8 42
 V^En68lY>@l0KA^ETYZi>E2
 !s100 SBfF6fWMUPD`@[XKlo=Ka0
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R91
-R92
+R25
+R86
+R87
 !i113 1
 R12
 R13
 Etop
-Z93 w1638153680
+Z88 w1638153680
 R1
 R2
 R3
-!i122 69
+!i122 86
 R4
-Z94 8/home/locochoco/vhdl-materia/risc-v/top.vhd
-Z95 F/home/locochoco/vhdl-materia/risc-v/top.vhd
+Z89 8/home/locochoco/vhdl-materia/risc-v/top.vhd
+Z90 F/home/locochoco/vhdl-materia/risc-v/top.vhd
 l0
 L5 1
 Vb^i2O>^GbzWZal_?hi1iS1
 !s100 F;mMGNLK=E]bO81?0Sfde3
 R7
 32
-R8
+R19
 !i10b 1
-R9
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/top.vhd|
-Z97 !s107 /home/locochoco/vhdl-materia/risc-v/top.vhd|
+R25
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/vhdl-materia/risc-v/top.vhd|
+Z92 !s107 /home/locochoco/vhdl-materia/risc-v/top.vhd|
 !i113 1
 R12
 R13
@@ -714,19 +714,19 @@ Atest
 R1
 R2
 R3
-Z98 DEx4 work 3 top 0 22 b^i2O>^GbzWZal_?hi1iS1
-!i122 69
+Z93 DEx4 work 3 top 0 22 b^i2O>^GbzWZal_?hi1iS1
+!i122 86
 l31
-Z99 L11 29
-Z100 VIh18f@JKDl4@lZ1MS5lX92
-Z101 !s100 XeVGU11Ze6h<P`hRXJK^53
+Z94 L11 29
+Z95 VIh18f@JKDl4@lZ1MS5lX92
+Z96 !s100 XeVGU11Ze6h<P`hRXJK^53
 R7
 32
-R8
+R19
 !i10b 1
-R9
-R96
-R97
+R25
+R91
+R92
 !i113 1
 R12
 R13

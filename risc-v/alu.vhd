@@ -18,7 +18,7 @@ begin
 	S <= a + Bout + ALUControl(2);
 
 	-- alu function
-	process(ALUResult, ALUControl, a, b) begin
+	process(ALUControl, a, b, S) begin
 		case ALUControl(2 downto 0) is
 			when "000" => ALUResult <= a + b;
 			when "001" => ALUResult <= a - b;
