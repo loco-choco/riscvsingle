@@ -15,16 +15,16 @@ architecture synth of alu is
 	signal S, Bout: STD_LOGIC_VECTOR(31 downto 0);
 begin
 	Bout <= (not b) when (ALUControl(2) = '1') else b;
-	S <= a + Bout + ALUControl(2);
+	S <= a + Bout + ALUControl(2);
 
 	-- alu function
-	process(all) begin
+	process(ALUResult, ALUControl, a, b) begin
 		case ALUControl(2 downto 0) is
 			when "000" => ALUResult <= a + b;
 			when "001" => ALUResult <= a - b;
 			when "010" => ALUResult <= a and b;
 			when "011" => ALUResult <= a or b;
-			when "101" => ALUResult <= ("0000000000000000000000000000000" & S(31));
+			when "101" => ALUResult <= ("0000000000000000000000000000000" & S(31));
 			when others => ALUResult <= X"00000000";
 		end case;
 	end process;
