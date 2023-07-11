@@ -32,17 +32,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD_UNSIGNED
 -- Loading package std_logic_textio
--- Loading package riscv_pkg
 -- Compiling entity imem
 -- Compiling architecture behave of imem
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/maindec.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/maindec.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity maindec
--- Compiling architecture behave of maindec
 
 } {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/riscvsingle.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/riscvsingle.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -52,6 +43,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package riscv_pkg
 -- Compiling entity riscvsingle
 -- Compiling architecture struct of riscvsingle
+
+} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/maindec.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/maindec.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity maindec
+-- Compiling architecture behave of maindec
 
 } {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/alu.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/alu.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -79,7 +78,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD_UNSIGNED
--- Loading package riscv_pkg
 -- Compiling entity dmem
 -- Compiling architecture behave of dmem
 
@@ -91,6 +89,24 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package riscv_pkg
 -- Compiling entity regfile
 -- Compiling architecture behave of regfile
+
+} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/riscv_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/riscv_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package riscv_pkg
+-- Compiling package body riscv_pkg
+-- Loading package riscv_pkg
+
+} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package riscv_pkg
+-- Compiling entity adder
+-- Compiling architecture behave of adder
 
 } {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/testbench.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -110,24 +126,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity extend
 -- Compiling architecture behave of extend
 
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/adder.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package riscv_pkg
--- Compiling entity adder
--- Compiling architecture behave of adder
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/riscv_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/riscv_pkg.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling package riscv_pkg
--- Compiling package body riscv_pkg
--- Loading package riscv_pkg
-
 } {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/top.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/top.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -138,6 +136,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity top
 -- Compiling architecture test of top
 
+} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controller
+-- Compiling architecture struct of controller
+
 } {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/mux2.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -145,14 +151,5 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity mux2
 -- Compiling architecture behave of mux2
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package riscv_pkg
--- Compiling entity controller
--- Compiling architecture struct of controller
 
 } {} {}}

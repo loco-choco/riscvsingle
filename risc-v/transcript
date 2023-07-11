@@ -1,0 +1,36 @@
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# Compile of alu.vhd failed with 1 errors.
+# 17 compiles, 1 failed with 1 error.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# Compile of alu.vhd was successful.
+# 17 compiles, 0 failed with no errors.
