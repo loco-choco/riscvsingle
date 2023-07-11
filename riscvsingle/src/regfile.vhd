@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.all;
 use WORK.riscv_pkg.all;
 
 entity regfile is
-	generic(width: integer := 32);
+	generic(width : integer := 32);
 	port(clk: in STD_LOGIC;
 		we3: in STD_LOGIC;
 		a1, a2, a3: in STD_LOGIC_VECTOR(4 downto 0);

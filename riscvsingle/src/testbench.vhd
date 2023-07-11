@@ -1,19 +1,18 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 use IEEE.NUMERIC_STD_UNSIGNED.all;
-use WORK.riscv_pkg.all;
+
 entity testbench is
-	generic(width: integer := 32);
 end;
 
 architecture test of testbench is
 	component top
 		port(clk, reset: in STD_LOGIC;
-			WriteData, DataAdr: out STD_LOGIC_VECTOR(width - 1 downto 0);
+			WriteData, DataAdr: out STD_LOGIC_VECTOR(31 downto 0);
 			MemWrite: out STD_LOGIC);
 	end component;
 	
-	signal WriteData, DataAdr: STD_LOGIC_VECTOR(width - 1 downto 0);
+	signal WriteData, DataAdr: STD_LOGIC_VECTOR(31 downto 0);
 	signal clk, reset, MemWrite: STD_LOGIC;
 begin
 	-- instantiate device to be tested

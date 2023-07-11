@@ -4,7 +4,7 @@ use IEEE.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
 entity alu is
-	generic(width: integer := 32);
+	generic(width : integer := 32);
 	port(a, b: in STD_LOGIC_VECTOR(width - 1 downto 0);
 			ALUControl: in STD_LOGIC_VECTOR(2 downto 0);
 			ALUResult: buffer STD_LOGIC_VECTOR(width - 1 downto 0);
@@ -14,14 +14,13 @@ end;
 
 architecture synth of alu is
 	signal S, Bout: STD_LOGIC_VECTOR(width - 1 downto 0);
-	constant allZeros: STD_LOGIC_VECTOR(width - 1 downto 0) := (others => '0');
+	constant Zeros: STD_LOGIC_VECTOR(width - 1 downto 0) := (others => '0');
 begin
 	Bout <= (not b) when (ALUControl(2) = '1') else b;
-	S <= a + Bout + ALUControl(2); -- essa linha faz com que o rtl tenha um componente de soma que, baseado na figura da ALU, eh desnecessario
-	-- serai entao possivel refazer essa arquitetura objetivando aproveitat a soma a + b para determinar S(width - 1)
+	S <= a + Bout + ALUControl(2);
 
 	-- alu function
-	process(ALUControl, a, b, S) begin
+	process(S, a, b, ALUControl) begin
 		case ALUControl(2 downto 0) is
 			when "000" => ALUResult <= a + b;
 			when "001" => ALUResult <= a - b;
@@ -31,7 +30,7 @@ begin
 			when others => ALUResult <= (others => '0');
 		end case;
 	end process;
-	Zero <= '1' when (ALUResult = allZeros) else '0';
+	Zero <= '1' when (ALUResult = Zeros) else '0';
 	-- overflow circuit
 	--process(all) begin
 	--	case ALUControl(2 downto 1) is

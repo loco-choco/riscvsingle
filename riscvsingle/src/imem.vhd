@@ -5,22 +5,21 @@ use IEEE.NUMERIC_STD_UNSIGNED.all;
 use ieee.std_logic_textio.all;
 
 entity imem is
-	generic(width: integer := 32);
-	port(a: in STD_LOGIC_VECTOR(width - 1 downto 0);
-		rd: out STD_LOGIC_VECTOR(width - 1 downto 0));
+	port(a: in STD_LOGIC_VECTOR(31 downto 0);
+		rd: out STD_LOGIC_VECTOR(31 downto 0));
 end;
 
 architecture behave of imem is
-	type ramtype is array (width * 2 - 1 downto 0) of
-				STD_LOGIC_VECTOR(width - 1 downto 0);
+	type ramtype is array (63 downto 0) of
+				STD_LOGIC_VECTOR(31 downto 0);
 	-- initialize memory from file
 	impure function init_ram_hex return ramtype is
-		file text_file : text open read_mode is "riscvtest.txt";
+		file text_file : text open read_mode is "../src/riscvtest.txt";
 		variable text_line : line;
 		variable ram_content : ramtype;
 		variable i : integer := 0;
 		begin
-		for i in 0 to width * 2 - 1 loop -- set all contents low
+		for i in 0 to 63 loop -- set all contents low
 			ram_content(i) := (others => '0');
 		end loop;
 		while not endfile(text_file) loop -- set contents from file
@@ -36,6 +35,6 @@ architecture behave of imem is
 	begin
 	-- read memory
 	process(a) begin
-		rd <= mem(to_integer(a(width - 1 downto 2)));
+		rd <= mem(to_integer(a(31 downto 2)));
 	end process;
 end;
