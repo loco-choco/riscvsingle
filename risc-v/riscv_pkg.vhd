@@ -87,6 +87,15 @@ package riscv_pkg is
 		ImmSrc: out STD_LOGIC_VECTOR(1 downto 0);
 		ALUControl: out STD_LOGIC_VECTOR(2 downto 0));
   end component;
+  component riscvsingle
+	generic(width:integer := 32);
+	port(clk, reset: in STD_LOGIC;
+		PC: out STD_LOGIC_VECTOR(width - 1 downto 0);
+		Instr: in STD_LOGIC_VECTOR(31 downto 0);
+		MemWrite: out STD_LOGIC;
+		ALUResult, WriteData: out STD_LOGIC_VECTOR(width - 1 downto 0);
+		ReadData: in STD_LOGIC_VECTOR(width - 1 downto 0));
+  end component;
 --functions
   function to_integer (constant vec: STD_LOGIC_VECTOR) return integer;
   function "+" (constant a: STD_LOGIC_VECTOR; constant b: STD_LOGIC_VECTOR) return STD_LOGIC_VECTOR;
