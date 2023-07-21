@@ -75,6 +75,18 @@ package riscv_pkg is
 		ALUOp: in STD_LOGIC_VECTOR(1 downto 0);
 		ALUControl: out STD_LOGIC_VECTOR(2 downto 0));
   end component;
+  component controller
+	port(op: in STD_LOGIC_VECTOR(6 downto 0);
+		funct3: in STD_LOGIC_VECTOR(2 downto 0);
+		funct7b5, Zero: in STD_LOGIC;
+		ResultSrc: out STD_LOGIC_VECTOR(1 downto 0);
+		MemWrite: out STD_LOGIC;
+		PCSrc, ALUSrc: out STD_LOGIC;
+		RegWrite: out STD_LOGIC;
+		Jump: buffer STD_LOGIC;
+		ImmSrc: out STD_LOGIC_VECTOR(1 downto 0);
+		ALUControl: out STD_LOGIC_VECTOR(2 downto 0));
+  end component;
 --functions
   function to_integer (constant vec: STD_LOGIC_VECTOR) return integer;
   function "+" (constant a: STD_LOGIC_VECTOR; constant b: STD_LOGIC_VECTOR) return STD_LOGIC_VECTOR;
