@@ -45,6 +45,20 @@ package riscv_pkg is
 		d: in STD_LOGIC_VECTOR(RISCV_Data_Width-1 downto 0);
 		q: out STD_LOGIC_VECTOR(RISCV_Data_Width-1 downto 0));
   end component;
+  component datapath
+	generic(width:integer := RISCV_Data_Width);
+	port(clk, reset: in STD_LOGIC;
+		ResultSrc: in STD_LOGIC_VECTOR(1 downto 0);
+		PCSrc, ALUSrc: in STD_LOGIC;
+		RegWrite: in STD_LOGIC;
+		ImmSrc: in STD_LOGIC_VECTOR(1 downto 0);
+		ALUControl: in STD_LOGIC_VECTOR(2 downto 0);
+		Zero: out STD_LOGIC;
+		PC: buffer STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
+		Instr: in STD_LOGIC_VECTOR(31 downto 0);
+		ALUResult, WriteData: buffer STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
+		ReadData: in STD_LOGIC_VECTOR(31 downto 0));
+  end component;
 --functions
   function to_integer (constant vec: STD_LOGIC_VECTOR) return integer;
   function "+" (constant a: STD_LOGIC_VECTOR; constant b: STD_LOGIC_VECTOR) return STD_LOGIC_VECTOR;
