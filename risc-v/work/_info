@@ -14,7 +14,7 @@ Z0 w1689964493
 Z1 DPx4 work 9 riscv_pkg 0 22 ^l=lfkLz3oWnzcaZlSQSY0
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 700
+!i122 723
 Z4 d/home/locochoco/riscvsingle/risc-v
 Z5 8/home/locochoco/riscvsingle/risc-v/adder.vhd
 Z6 F/home/locochoco/riscvsingle/risc-v/adder.vhd
@@ -24,9 +24,9 @@ VoHd85:JS[fKij4fEm>8;;3
 !s100 ^YGCa=m>[h:bG@hTI?hFC3
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1689974237
+Z8 !s110 1689974391
 !i10b 1
-Z9 !s108 1689974237.000000
+Z9 !s108 1689974391.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/adder.vhd|
 Z11 !s107 /home/locochoco/riscvsingle/risc-v/adder.vhd|
 !i113 1
@@ -37,7 +37,7 @@ R1
 R2
 R3
 DEx4 work 5 adder 0 22 oHd85:JS[fKij4fEm>8;;3
-!i122 700
+!i122 723
 l12
 L11 4
 Vc5Kl7b3OgjG;XY]R^3j5a3
@@ -58,7 +58,7 @@ Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R2
 R3
-!i122 701
+!i122 718
 R4
 Z16 8/home/locochoco/riscvsingle/risc-v/alu.vhd
 Z17 F/home/locochoco/riscvsingle/risc-v/alu.vhd
@@ -82,7 +82,7 @@ R15
 R2
 R3
 DEx4 work 3 alu 0 22 [i72YYnc@033C_bQ8Tk;f1
-!i122 701
+!i122 718
 l18
 L15 32
 VDzX9HjW1R7cUg@RPVz7f53
@@ -101,7 +101,7 @@ Ealudec
 Z20 w1689959500
 R2
 R3
-!i122 702
+!i122 727
 R4
 Z21 8/home/locochoco/riscvsingle/risc-v/aludec.vhd
 Z22 F/home/locochoco/riscvsingle/risc-v/aludec.vhd
@@ -111,11 +111,11 @@ VhHLZ55YBRaWz:i=E@>JTK3
 !s100 6G8GR0iILUT5<bI;dd7BU2
 R7
 32
-R8
+Z23 !s110 1689974392
 !i10b 1
-R9
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/aludec.vhd|
-Z24 !s107 /home/locochoco/riscvsingle/risc-v/aludec.vhd|
+Z24 !s108 1689974392.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/aludec.vhd|
+Z26 !s107 /home/locochoco/riscvsingle/risc-v/aludec.vhd|
 !i113 1
 R12
 R13
@@ -123,41 +123,41 @@ Abehave
 R2
 R3
 DEx4 work 6 aludec 0 22 hHLZ55YBRaWz:i=E@>JTK3
-!i122 702
+!i122 727
 l14
 L12 22
 ViE[MhYm9MKi]hiNkD^H970
 !s100 R]Y2EfKhBBl>fXo<@3S2S2
 R7
 32
-R8
-!i10b 1
-R9
 R23
+!i10b 1
 R24
+R25
+R26
 !i113 1
 R12
 R13
 Econtroller
-Z25 w1689974194
+Z27 w1689974194
 R1
 R2
 R3
-!i122 703
+!i122 728
 R4
-Z26 8/home/locochoco/riscvsingle/risc-v/controller.vhd
-Z27 F/home/locochoco/riscvsingle/risc-v/controller.vhd
+Z28 8/home/locochoco/riscvsingle/risc-v/controller.vhd
+Z29 F/home/locochoco/riscvsingle/risc-v/controller.vhd
 l0
 L5 1
 V31a2GI25^KY[ZAZ8fhV<j2
 !s100 S0blSL0im0@A>KlFHV8?o2
 R7
 32
-R8
+R23
 !i10b 1
-R9
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/controller.vhd|
-Z29 !s107 /home/locochoco/riscvsingle/risc-v/controller.vhd|
+R24
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/controller.vhd|
+Z31 !s107 /home/locochoco/riscvsingle/risc-v/controller.vhd|
 !i113 1
 R12
 R13
@@ -166,42 +166,42 @@ R1
 R2
 R3
 DEx4 work 10 controller 0 22 31a2GI25^KY[ZAZ8fhV<j2
-!i122 703
+!i122 728
 l38
 L18 26
 VkiD41bbMb8C9B[BlLNVgS2
 !s100 9Tfj`_HVXD`m;AYiCa>=?0
 R7
 32
-R8
+R23
 !i10b 1
-R9
-R28
-R29
+R24
+R30
+R31
 !i113 1
 R12
 R13
 Edatapath
-Z30 w1689973755
+Z32 w1689973755
 R1
 R15
 R2
 R3
-!i122 704
+!i122 725
 R4
-Z31 8/home/locochoco/riscvsingle/risc-v/datapath.vhd
-Z32 F/home/locochoco/riscvsingle/risc-v/datapath.vhd
+Z33 8/home/locochoco/riscvsingle/risc-v/datapath.vhd
+Z34 F/home/locochoco/riscvsingle/risc-v/datapath.vhd
 l0
 L6 1
 VWCZV76NU[H?^9j>3`hNHa3
 !s100 ]6HR5RU=SJlCDCjH0dg;<1
 R7
 32
-R8
+R23
 !i10b 1
-R9
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/datapath.vhd|
-Z34 !s107 /home/locochoco/riscvsingle/risc-v/datapath.vhd|
+R24
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/datapath.vhd|
+Z36 !s107 /home/locochoco/riscvsingle/risc-v/datapath.vhd|
 !i113 1
 R12
 R13
@@ -211,61 +211,61 @@ R15
 R2
 R3
 DEx4 work 8 datapath 0 22 WCZV76NU[H?^9j>3`hNHa3
-!i122 704
+!i122 725
 l64
 L21 60
 V]JOYZ5a7g0Ad_@Y4RV1kf1
 !s100 @a858[k0HO6AdQ:WO0<]L1
 R7
 32
-R8
+R23
 !i10b 1
-R9
-R33
-R34
+R24
+R35
+R36
 !i113 1
 R12
 R13
 Edmem
 R0
-Z35 DPx4 ieee 20 numeric_std_unsigned 0 22 L9z`>=>LNY9h8oAIomUKm3
+Z37 DPx4 ieee 20 numeric_std_unsigned 0 22 L9z`>=>LNY9h8oAIomUKm3
 R2
 R3
-!i122 705
+!i122 729
 R4
-Z36 8/home/locochoco/riscvsingle/risc-v/dmem.vhd
-Z37 F/home/locochoco/riscvsingle/risc-v/dmem.vhd
+Z38 8/home/locochoco/riscvsingle/risc-v/dmem.vhd
+Z39 F/home/locochoco/riscvsingle/risc-v/dmem.vhd
 l0
 L6 1
 V:IaiLb^REbUPW=fR0k1?e1
 !s100 6SX?Nn:M9_JcC52lT6n]60
 R7
 32
-R8
+Z40 !s110 1689974393
 !i10b 1
-R9
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/dmem.vhd|
-Z39 !s107 /home/locochoco/riscvsingle/risc-v/dmem.vhd|
+R24
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/dmem.vhd|
+Z42 !s107 /home/locochoco/riscvsingle/risc-v/dmem.vhd|
 !i113 1
 R12
 R13
 Abehave
-R35
+R37
 R2
 R3
 DEx4 work 4 dmem 0 22 :IaiLb^REbUPW=fR0k1?e1
-!i122 705
+!i122 729
 l13
 L12 18
 Vj=<50P<7Hmk0g2B]8eXhz1
 !s100 ^J;MZA_L?bno3U:;j11JA1
 R7
 32
-R8
+R40
 !i10b 1
-R9
-R38
-R39
+R24
+R41
+R42
 !i113 1
 R12
 R13
@@ -273,10 +273,10 @@ Eextend
 R0
 R2
 R3
-!i122 706
+!i122 719
 R4
-Z40 8/home/locochoco/riscvsingle/risc-v/extend.vhd
-Z41 F/home/locochoco/riscvsingle/risc-v/extend.vhd
+Z43 8/home/locochoco/riscvsingle/risc-v/extend.vhd
+Z44 F/home/locochoco/riscvsingle/risc-v/extend.vhd
 l0
 L4 1
 V;9R_86872?em;M9YQKZAS3
@@ -286,8 +286,8 @@ R7
 R8
 !i10b 1
 R9
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/extend.vhd|
-Z43 !s107 /home/locochoco/riscvsingle/risc-v/extend.vhd|
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/extend.vhd|
+Z46 !s107 /home/locochoco/riscvsingle/risc-v/extend.vhd|
 !i113 1
 R12
 R13
@@ -295,7 +295,7 @@ Abehave
 R2
 R3
 DEx4 work 6 extend 0 22 ;9R_86872?em;M9YQKZAS3
-!i122 706
+!i122 719
 l12
 L10 26
 VWCiK2hX1NfKTD2L<d=a^71
@@ -305,8 +305,8 @@ R7
 R8
 !i10b 1
 R9
-R42
-R43
+R45
+R46
 !i113 1
 R12
 R13
@@ -315,21 +315,21 @@ R20
 R15
 R2
 R3
-!i122 707
+!i122 730
 R4
-Z44 8/home/locochoco/riscvsingle/risc-v/flopenr.vhd
-Z45 F/home/locochoco/riscvsingle/risc-v/flopenr.vhd
+Z47 8/home/locochoco/riscvsingle/risc-v/flopenr.vhd
+Z48 F/home/locochoco/riscvsingle/risc-v/flopenr.vhd
 l0
 L5 1
 VQ<XcLoO032Ch8]AKnA_aS2
 !s100 IkH8m2A0USQUf>>0eMaQN3
 R7
 32
-Z46 !s110 1689974238
+R40
 !i10b 1
-R9
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/flopenr.vhd|
-Z48 !s107 /home/locochoco/riscvsingle/risc-v/flopenr.vhd|
+Z49 !s108 1689974393.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/flopenr.vhd|
+Z51 !s107 /home/locochoco/riscvsingle/risc-v/flopenr.vhd|
 !i113 1
 R12
 R13
@@ -338,41 +338,41 @@ R15
 R2
 R3
 DEx4 work 7 flopenr 0 22 Q<XcLoO032Ch8]AKnA_aS2
-!i122 707
+!i122 730
 l13
-Z49 L12 8
+Z52 L12 8
 V4gV^kQe]lgenB^`]X3mQ;3
 !s100 @1EBAf:R;=R@jGQg21^461
 R7
 32
-R46
+R40
 !i10b 1
-R9
-R47
-R48
+R49
+R50
+R51
 !i113 1
 R12
 R13
 Eflopr
-Z50 w1689972530
+Z53 w1689972530
 R15
 R2
 R3
-!i122 708
+!i122 724
 R4
-Z51 8/home/locochoco/riscvsingle/risc-v/flopr.vhd
-Z52 F/home/locochoco/riscvsingle/risc-v/flopr.vhd
+Z54 8/home/locochoco/riscvsingle/risc-v/flopr.vhd
+Z55 F/home/locochoco/riscvsingle/risc-v/flopr.vhd
 l0
 L5 1
 V@EC84`>j;;VM6[6?oXE9O0
 !s100 DzU0;HK:2Y`Y886@TDO3i3
 R7
 32
-R46
+R23
 !i10b 1
-Z53 !s108 1689974238.000000
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/flopr.vhd|
-Z55 !s107 /home/locochoco/riscvsingle/risc-v/flopr.vhd|
+R24
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/flopr.vhd|
+Z57 !s107 /home/locochoco/riscvsingle/risc-v/flopr.vhd|
 !i113 1
 R12
 R13
@@ -381,63 +381,63 @@ R15
 R2
 R3
 DEx4 work 5 flopr 0 22 @EC84`>j;;VM6[6?oXE9O0
-!i122 708
+!i122 724
 l13
-R49
+R52
 VH=ZF0d=XlJ;;znm7Yk:Hm0
 !s100 IfKD`KA6jGYc6>hREI6;A1
 R7
 32
-R46
+R23
 !i10b 1
-R53
-R54
-R55
+R24
+R56
+R57
 !i113 1
 R12
 R13
 Eimem
 R0
-Z56 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
-R35
+Z58 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R37
 R2
 R3
-!i122 709
+!i122 731
 R4
-Z57 8/home/locochoco/riscvsingle/risc-v/imem.vhd
-Z58 F/home/locochoco/riscvsingle/risc-v/imem.vhd
+Z59 8/home/locochoco/riscvsingle/risc-v/imem.vhd
+Z60 F/home/locochoco/riscvsingle/risc-v/imem.vhd
 l0
 L7 1
 VbaGgI@d;c46ZmLGiX3O821
 !s100 Q2jOQSYW4fKff_6=hmkfl0
 R7
 32
-R46
+R40
 !i10b 1
-R53
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/imem.vhd|
-Z60 !s107 /home/locochoco/riscvsingle/risc-v/imem.vhd|
+R49
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/imem.vhd|
+Z62 !s107 /home/locochoco/riscvsingle/risc-v/imem.vhd|
 !i113 1
 R12
 R13
 Abehave
-R56
-R35
+R58
+R37
 R2
 R3
 DEx4 work 4 imem 0 22 baGgI@d;c46ZmLGiX3O821
-!i122 709
+!i122 731
 l35
 L12 29
 VZ[R?cRAIKSJ]H=:UV<65f1
 !s100 Ob[V7Y5zHcFPH_gGJ`_Y80
 R7
 32
-R46
+R40
 !i10b 1
-R53
-R59
-R60
+R49
+R61
+R62
 !i113 1
 R12
 R13
@@ -445,21 +445,21 @@ Emaindec
 R20
 R2
 R3
-!i122 710
+!i122 726
 R4
-Z61 8/home/locochoco/riscvsingle/risc-v/maindec.vhd
-Z62 F/home/locochoco/riscvsingle/risc-v/maindec.vhd
+Z63 8/home/locochoco/riscvsingle/risc-v/maindec.vhd
+Z64 F/home/locochoco/riscvsingle/risc-v/maindec.vhd
 l0
 L4 1
 VI^9[:35nZ]IEBcRi`KIBl0
 !s100 <JLM]dmEQ;dENLMNh7dEf0
 R7
 32
-R46
+R23
 !i10b 1
-R53
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/maindec.vhd|
-Z64 !s107 /home/locochoco/riscvsingle/risc-v/maindec.vhd|
+R24
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/maindec.vhd|
+Z66 !s107 /home/locochoco/riscvsingle/risc-v/maindec.vhd|
 !i113 1
 R12
 R13
@@ -467,40 +467,40 @@ Abehave
 R2
 R3
 DEx4 work 7 maindec 0 22 I^9[:35nZ]IEBcRi`KIBl0
-!i122 710
+!i122 726
 l16
 L14 19
 V2V1?gg@zKJ8R??g0fUi1T0
 !s100 Cb5cnQiHOL>B^UGW:;J0U0
 R7
 32
-R46
+R23
 !i10b 1
-R53
-R63
-R64
+R24
+R65
+R66
 !i113 1
 R12
 R13
 Emux2
-Z65 w1689972759
+Z67 w1689972759
 R2
 R3
-!i122 711
+!i122 722
 R4
-Z66 8/home/locochoco/riscvsingle/risc-v/mux2.vhd
-Z67 F/home/locochoco/riscvsingle/risc-v/mux2.vhd
+Z68 8/home/locochoco/riscvsingle/risc-v/mux2.vhd
+Z69 F/home/locochoco/riscvsingle/risc-v/mux2.vhd
 l0
 L4 1
 V4Q13F1@hX;CUVO2^jdK>U1
 !s100 =IbQIUPlMaId1k2YKR5Ii3
 R7
 32
-R46
+R8
 !i10b 1
-R53
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/mux2.vhd|
-Z69 !s107 /home/locochoco/riscvsingle/risc-v/mux2.vhd|
+R9
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/mux2.vhd|
+Z71 !s107 /home/locochoco/riscvsingle/risc-v/mux2.vhd|
 !i113 1
 R12
 R13
@@ -508,18 +508,18 @@ Abehave
 R2
 R3
 DEx4 work 4 mux2 0 22 4Q13F1@hX;CUVO2^jdK>U1
-!i122 711
+!i122 722
 l12
 L11 9
 VJK=d1ikTcfhFVSkZdIC`h3
 !s100 3AaOe0i6MHIY?jOGE=5d82
 R7
 32
-R46
+R8
 !i10b 1
-R53
-R68
-R69
+R9
+R70
+R71
 !i113 1
 R12
 R13
@@ -527,21 +527,21 @@ Emux3
 R0
 R2
 R3
-!i122 712
+!i122 721
 R4
-Z70 8/home/locochoco/riscvsingle/risc-v/mux3.vhd
-Z71 F/home/locochoco/riscvsingle/risc-v/mux3.vhd
+Z72 8/home/locochoco/riscvsingle/risc-v/mux3.vhd
+Z73 F/home/locochoco/riscvsingle/risc-v/mux3.vhd
 l0
 L4 1
 VdMHj>4hWP^FjWk7D1cIMO2
 !s100 ljVzU7OXe1@hQ`8F[BfFQ1
 R7
 32
-R46
+R8
 !i10b 1
-R53
-Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/mux3.vhd|
-Z73 !s107 /home/locochoco/riscvsingle/risc-v/mux3.vhd|
+R9
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/mux3.vhd|
+Z75 !s107 /home/locochoco/riscvsingle/risc-v/mux3.vhd|
 !i113 1
 R12
 R13
@@ -549,18 +549,18 @@ Abehave
 R2
 R3
 DEx4 work 4 mux3 0 22 dMHj>4hWP^FjWk7D1cIMO2
-!i122 712
+!i122 721
 l12
 L11 8
 VlSj2zKF<I`a2XX^JI[[c_2
 !s100 P]je0Q1cZMWhAbB>BddSb2
 R7
 32
-R46
+R8
 !i10b 1
-R53
-R72
-R73
+R9
+R74
+R75
 !i113 1
 R12
 R13
@@ -569,21 +569,21 @@ R0
 R1
 R2
 R3
-!i122 714
+!i122 720
 R4
-Z74 8/home/locochoco/riscvsingle/risc-v/regfile.vhd
-Z75 F/home/locochoco/riscvsingle/risc-v/regfile.vhd
+Z76 8/home/locochoco/riscvsingle/risc-v/regfile.vhd
+Z77 F/home/locochoco/riscvsingle/risc-v/regfile.vhd
 l0
 L5 1
 V]RBWXD@6QcGZ0=<kb8nDj1
 !s100 o6e6ADVWoEaf[@`iE<JRJ3
 R7
 32
-R46
+R8
 !i10b 1
-R53
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/regfile.vhd|
-Z77 !s107 /home/locochoco/riscvsingle/risc-v/regfile.vhd|
+R9
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/regfile.vhd|
+Z79 !s107 /home/locochoco/riscvsingle/risc-v/regfile.vhd|
 !i113 1
 R12
 R13
@@ -592,29 +592,29 @@ R1
 R2
 R3
 DEx4 work 7 regfile 0 22 ]RBWXD@6QcGZ0=<kb8nDj1
-!i122 714
+!i122 720
 l17
 L14 23
 VI;^i^[ga7IegXhGQ^Cnm[0
 !s100 ^WP@3UlF2Q?cN:lgW>LSe3
 R7
 32
-R46
+R8
 !i10b 1
-R53
-R76
-R77
+R9
+R78
+R79
 !i113 1
 R12
 R13
 Priscv_pkg
 R2
 R3
-!i122 713
-Z78 w1689974200
+!i122 732
+Z80 w1689974200
 R4
-Z79 8/home/locochoco/riscvsingle/risc-v/riscv_pkg.vhd
-Z80 F/home/locochoco/riscvsingle/risc-v/riscv_pkg.vhd
+Z81 8/home/locochoco/riscvsingle/risc-v/riscv_pkg.vhd
+Z82 F/home/locochoco/riscvsingle/risc-v/riscv_pkg.vhd
 l0
 L3 1
 V^l=lfkLz3oWnzcaZlSQSY0
@@ -622,11 +622,11 @@ V^l=lfkLz3oWnzcaZlSQSY0
 R7
 32
 b1
-R46
+R40
 !i10b 1
-R53
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/riscv_pkg.vhd|
-Z82 !s107 /home/locochoco/riscvsingle/risc-v/riscv_pkg.vhd|
+R49
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/riscv_pkg.vhd|
+Z84 !s107 /home/locochoco/riscvsingle/risc-v/riscv_pkg.vhd|
 !i113 1
 R12
 R13
@@ -634,18 +634,18 @@ Bbody
 R1
 R2
 R3
-!i122 713
+!i122 732
 l0
 L94 1
 VZ26f@dTmPT;G7GD[@6=dR1
 !s100 61NVOAii9T[BH[C9a]adN2
 R7
 32
-R46
+R40
 !i10b 1
-R53
-R81
-R82
+R49
+R83
+R84
 !i113 1
 R12
 R13
@@ -653,21 +653,21 @@ Eriscvsingle
 R0
 R2
 R3
-!i122 715
+!i122 733
 R4
-Z83 8/home/locochoco/riscvsingle/risc-v/riscvsingle.vhd
-Z84 F/home/locochoco/riscvsingle/risc-v/riscvsingle.vhd
+Z85 8/home/locochoco/riscvsingle/risc-v/riscvsingle.vhd
+Z86 F/home/locochoco/riscvsingle/risc-v/riscvsingle.vhd
 l0
 L4 1
 VDO2Y;0RK6F5BMYbCHa62k1
 !s100 MYB@W=NzoiMOhSC_]VEmC2
 R7
 32
-R46
+R40
 !i10b 1
-R53
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/riscvsingle.vhd|
-Z86 !s107 /home/locochoco/riscvsingle/risc-v/riscvsingle.vhd|
+R49
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/riscvsingle.vhd|
+Z88 !s107 /home/locochoco/riscvsingle/risc-v/riscvsingle.vhd|
 !i113 1
 R12
 R13
@@ -675,104 +675,104 @@ Astruct
 R2
 R3
 DEx4 work 11 riscvsingle 0 22 DO2Y;0RK6F5BMYbCHa62k1
-!i122 715
+!i122 733
 l42
 L13 39
 Vo]T2li2HJVFYb2FJKO`kA0
 !s100 JaFG^c[A=6R:d8@PfN;S40
 R7
 32
-R46
+R40
 !i10b 1
-R53
-R85
-R86
+R49
+R87
+R88
 !i113 1
 R12
 R13
 Etestbench
 R0
-R35
+R37
 R2
 R3
-!i122 716
+!i122 734
 R4
-Z87 8/home/locochoco/riscvsingle/risc-v/testbench.vhd
-Z88 F/home/locochoco/riscvsingle/risc-v/testbench.vhd
+Z89 8/home/locochoco/riscvsingle/risc-v/testbench.vhd
+Z90 F/home/locochoco/riscvsingle/risc-v/testbench.vhd
 l0
 L5 1
 VADnHjOTYPEe@JDN3eYl3h0
 !s100 A;Mm4RhYU5J1`BBTYcHhR3
 R7
 32
-Z89 !s110 1689974239
+Z91 !s110 1689974394
 !i10b 1
-R53
-Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/testbench.vhd|
-Z91 !s107 /home/locochoco/riscvsingle/risc-v/testbench.vhd|
+R49
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/testbench.vhd|
+Z93 !s107 /home/locochoco/riscvsingle/risc-v/testbench.vhd|
 !i113 1
 R12
 R13
 Atest
-R35
+R37
 R2
 R3
 DEx4 work 9 testbench 0 22 ADnHjOTYPEe@JDN3eYl3h0
-!i122 716
+!i122 734
 l17
 L8 42
 V^En68lY>@l0KA^ETYZi>E2
 !s100 SBfF6fWMUPD`@[XKlo=Ka0
 R7
 32
-R89
-!i10b 1
-R53
-R90
 R91
+!i10b 1
+R49
+R92
+R93
 !i113 1
 R12
 R13
 Etop
 R20
-R35
+R37
 R2
 R3
-!i122 717
+!i122 735
 R4
-Z92 8/home/locochoco/riscvsingle/risc-v/top.vhd
-Z93 F/home/locochoco/riscvsingle/risc-v/top.vhd
+Z94 8/home/locochoco/riscvsingle/risc-v/top.vhd
+Z95 F/home/locochoco/riscvsingle/risc-v/top.vhd
 l0
 L5 1
 Vb^i2O>^GbzWZal_?hi1iS1
 !s100 F;mMGNLK=E]bO81?0Sfde3
 R7
 32
-R89
+R91
 !i10b 1
-Z94 !s108 1689974239.000000
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/top.vhd|
-Z96 !s107 /home/locochoco/riscvsingle/risc-v/top.vhd|
+Z96 !s108 1689974394.000000
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/locochoco/riscvsingle/risc-v/top.vhd|
+Z98 !s107 /home/locochoco/riscvsingle/risc-v/top.vhd|
 !i113 1
 R12
 R13
 Atest
-R35
+R37
 R2
 R3
-Z97 DEx4 work 3 top 0 22 b^i2O>^GbzWZal_?hi1iS1
-!i122 717
+Z99 DEx4 work 3 top 0 22 b^i2O>^GbzWZal_?hi1iS1
+!i122 735
 l31
-Z98 L11 29
-Z99 VIh18f@JKDl4@lZ1MS5lX92
-Z100 !s100 XeVGU11Ze6h<P`hRXJK^53
+Z100 L11 29
+Z101 VIh18f@JKDl4@lZ1MS5lX92
+Z102 !s100 XeVGU11Ze6h<P`hRXJK^53
 R7
 32
-R89
+R91
 !i10b 1
-R94
-R95
 R96
+R97
+R98
 !i113 1
 R12
 R13

@@ -913,3 +913,22 @@ run
 # ** Failure: NO ERRORS: Simulation succeeded
 #    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
 # Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+# Compile of alu.vhd was successful with warnings.
+# Compile of extend.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of datapath.vhd was successful with warnings.
+# Compile of maindec.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 0 failed with no errors.
