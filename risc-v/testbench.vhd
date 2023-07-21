@@ -1,12 +1,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 use IEEE.NUMERIC_STD_UNSIGNED.all;
+use WORK.riscv_pkg.all;
 
 entity testbench is
 end;
 
 architecture test of testbench is
 	component top
+		generic(width:integer);
 		port(clk, reset: in STD_LOGIC;
 			WriteData, DataAdr: out STD_LOGIC_VECTOR(31 downto 0);
 			MemWrite: out STD_LOGIC);
@@ -16,7 +18,7 @@ architecture test of testbench is
 	signal clk, reset, MemWrite: STD_LOGIC;
 begin
 	-- instantiate device to be tested
-	dut: top port map(clk, reset, WriteData, DataAdr, MemWrite);
+	dut: top generic map(32) port map(clk, reset, WriteData, DataAdr, MemWrite);
 	
 	-- Generate clock with 10 ns period
 	process begin

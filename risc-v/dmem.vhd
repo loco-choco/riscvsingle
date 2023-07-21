@@ -1,19 +1,21 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 use STD.TEXTIO.all;
-use IEEE.NUMERIC_STD_UNSIGNED.all;
+--use IEEE.NUMERIC_STD_UNSIGNED.all;
+use WORK.riscv_pkg.all;
 
 entity dmem is
+	generic(width:integer := 32);
 	port(clk, we: in STD_LOGIC;
-		a, wd: in STD_LOGIC_VECTOR(31 downto 0);
-		rd: out STD_LOGIC_VECTOR(31 downto 0));
+		a, wd: in STD_LOGIC_VECTOR(width - 1 downto 0);
+		rd: out STD_LOGIC_VECTOR(width - 1 downto 0));
 end;
 
 architecture behave of dmem is
 begin
 	process is
-		type ramtype is array (63 downto 0) of
-		STD_LOGIC_VECTOR(31 downto 0);
+		type ramtype is array (width*2 - 1 downto 0) of
+		STD_LOGIC_VECTOR(width - 1 downto 0);
 		variable mem: ramtype;
 	begin
 		-- read or write memory

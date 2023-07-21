@@ -88,13 +88,30 @@ package riscv_pkg is
 		ALUControl: out STD_LOGIC_VECTOR(2 downto 0));
   end component;
   component riscvsingle
-	generic(width:integer := 32);
+	generic(width:integer := RISCV_Data_Width);
 	port(clk, reset: in STD_LOGIC;
-		PC: out STD_LOGIC_VECTOR(width - 1 downto 0);
+		PC: out STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
 		Instr: in STD_LOGIC_VECTOR(31 downto 0);
 		MemWrite: out STD_LOGIC;
-		ALUResult, WriteData: out STD_LOGIC_VECTOR(width - 1 downto 0);
-		ReadData: in STD_LOGIC_VECTOR(width - 1 downto 0));
+		ALUResult, WriteData: out STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
+		ReadData: in STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0));
+  end component;
+  component imem
+	generic(width:integer := RISCV_Data_Width);
+	port(a: in STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
+		rd: out STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0));
+  end component;
+  component dmem
+	generic(width:integer := RISCV_Data_Width);
+	port(clk, we: in STD_LOGIC;
+		a, wd: in STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
+		rd: out STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0));
+  end component;
+  component top
+	generic(width:integer := RISCV_Data_Width);
+	port(clk, reset: in STD_LOGIC;
+		WriteData, DataAdr: buffer STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
+		MemWrite: buffer STD_LOGIC);
   end component;
 --functions
   function to_integer (constant vec: STD_LOGIC_VECTOR) return integer;
