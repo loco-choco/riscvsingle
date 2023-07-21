@@ -2,6 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 package riscv_pkg is
   constant RISCV_Data_Width: integer := 32;
+--components
   component alu 
     generic(width: integer := RISCV_Data_Width);
     port(a, b: in STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
@@ -13,6 +14,38 @@ package riscv_pkg is
 		immsrc: in STD_LOGIC_VECTOR(1 downto 0);
 		immext: out STD_LOGIC_VECTOR(31 downto 0));
   end component;
+  component regfile 
+	generic(width: integer := RISCV_Data_Width);
+	port(clk: in STD_LOGIC;
+		we3: in STD_LOGIC;
+		a1, a2, a3: in STD_LOGIC_VECTOR(4 downto 0);
+		wd3: in STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
+		rd1, rd2: out STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0));
+  end component;
+  component mux3 
+	generic(width: integer := RISCV_Data_Width);
+	port(d0, d1, d2: in STD_LOGIC_VECTOR(RISCV_Data_Width-1 downto 0);
+		s: in STD_LOGIC_VECTOR(1 downto 0);
+		y: out STD_LOGIC_VECTOR(RISCV_Data_Width-1 downto 0));
+  end component;
+  component mux2 
+	generic(width: integer := RISCV_Data_Width);
+	port(d0, d1: in STD_LOGIC_VECTOR(RISCV_Data_Width-1 downto 0);
+		s: in STD_LOGIC;
+		y: out STD_LOGIC_VECTOR(RISCV_Data_Width-1 downto 0));
+  end component;
+  component adder 
+	generic(width:integer := RISCV_Data_Width);
+	port(a, b: in STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
+		y: out STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0));
+  end component;
+  component flopr
+	generic(width: integer := RISCV_Data_Width);
+	port(clk, reset: in STD_LOGIC;
+		d: in STD_LOGIC_VECTOR(RISCV_Data_Width-1 downto 0);
+		q: out STD_LOGIC_VECTOR(RISCV_Data_Width-1 downto 0));
+  end component;
+--functions
   function to_integer (constant vec: STD_LOGIC_VECTOR) return integer;
   function "+" (constant a: STD_LOGIC_VECTOR; constant b: STD_LOGIC_VECTOR) return STD_LOGIC_VECTOR;
 end riscv_pkg;
