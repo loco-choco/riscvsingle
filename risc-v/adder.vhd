@@ -1,10 +1,11 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
-use IEEE.NUMERIC_STD_UNSIGNED.all;
+use WORK.riscv_pkg.all;
 
 entity adder is
-	port(a, b: in STD_LOGIC_VECTOR(31 downto 0);
-		y: out STD_LOGIC_VECTOR(31 downto 0));
+	generic(width:integer := 32);
+	port(a, b: in STD_LOGIC_VECTOR(width - 1 downto 0);
+		y: out STD_LOGIC_VECTOR(width - 1 downto 0));
 end;
 
 architecture behave of adder is

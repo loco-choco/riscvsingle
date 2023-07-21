@@ -31,15 +31,13 @@ package body riscv_pkg is
   end to_integer;
   function "+" (constant a: STD_LOGIC_VECTOR; constant b: STD_LOGIC_VECTOR) return STD_LOGIC_VECTOR is
     alias xa: STD_LOGIC_VECTOR(a'LENGTH - 1 downto 0) is a;
-    alias xb: STD_LOGIC_VECTOR(a'LENGTH - 1 downto 0) is b;
-    variable result: STD_LOGIC_VECTOR(a'LENGTH - 1 downto 0) := (others => '0');
+    alias xb: STD_LOGIC_VECTOR(b'LENGTH - 1 downto 0) is b;
+    variable result: STD_LOGIC_VECTOR(a'LENGTH - 1 downto 0);
     variable carry: STD_LOGIC := '0';
-    variable halfSum: STD_LOGIC;
   begin
     for i in 0 to xa'LENGTH - 1 loop
-      halfSum:= xa(i) or xb(i);
-      result(i) := halfSum xor carry;
-      carry:= (xa(i) and xb(i)) or (halfSum and carry);
+	result(i) := xa(i) XOR xb(i) XOR carry;
+ 	carry := (xa(i) AND xb(i)) OR (carry AND xa(i)) OR (carry AND xb(i));
     end loop;
     return result;
   end "+";

@@ -10,5 +10,10 @@ end;
 
 architecture behave of mux2 is
 begin
-	y <= d1 when s = '1' else d0;
+	process(s, d0, d1) begin
+		case s is
+			when '1' => y <= d1;
+			when others => y <= d0;
+		end case;
+	end process;
 end;
