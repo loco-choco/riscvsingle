@@ -1,3 +1,4 @@
+# 0 compiles, 17 failed with no errors.
 # Compile of adder.vhd was successful.
 # Compile of alu.vhd was successful.
 # Compile of aludec.vhd was successful.

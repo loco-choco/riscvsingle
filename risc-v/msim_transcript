@@ -1,6 +1,6 @@
-vsim -i -l msim_transcript work.testbench -t 10ns
-# vsim -i -l msim_transcript work.testbench -t 10ns 
-# Start time: 14:42:59 on Jul 11,2023
+vsim -i -l msim_transcript work.testbench
+# vsim -i -l msim_transcript work.testbench 
+# Start time: 14:19:34 on Jul 21,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -25,180 +25,52 @@ vsim -i -l msim_transcript work.testbench -t 10ns
 # Loading ieee.std_logic_textio(body)
 # Loading work.imem(behave)
 # Loading work.dmem(behave)
-# ** Warning: (vsim-3479) Time unit 'ns' is less than the simulator resolution (10ns).
-#    Time: 0 ns  Iteration: 0  Root: /
-# WARNING: No extended dataflow license exists
 add wave -position insertpoint sim:/testbench/*
 run
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/dmem1
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem1
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/imem1
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/dmem1
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/dmem1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
-run -continue
-run -continue
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/dmem1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/imem1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/dmem1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
-vsim -i -l msim_transcript -t ns work.testbench
-# End time: 14:44:30 on Jul 11,2023, Elapsed time: 0:01:31
-# Errors: 0, Warnings: 23
-# vsim -i -l msim_transcript -t ns work.testbench 
-# Start time: 14:44:30 on Jul 11,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.numeric_std_unsigned(body)
-# Loading work.testbench(test)
-# Loading work.top(test)
-# Loading work.riscvsingle(struct)
-# Loading work.controller(struct)
-# Loading work.maindec(behave)
-# Loading work.aludec(behave)
-# Loading ieee.std_logic_arith(body)
-# Loading work.datapath(struct)
-# Loading work.flopr(asynchronous)
-# Loading work.adder(behave)
-# Loading work.mux2(behave)
-# Loading work.regfile(behave)
-# Loading work.extend(behave)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.alu(fast)
-# Loading work.mux3(behave)
-# Loading ieee.std_logic_textio(body)
-# Loading work.imem(behave)
-# Loading work.dmem(behave)
-restart
-add wave -position insertpoint sim:/testbench/*
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/dmem1
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/imem1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/dmem1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 140 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
@@ -242,10 +114,946 @@ run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
 # ** Failure: NO ERRORS: Simulation succeeded
-#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/vhdl-materia/risc-v/testbench.vhd
-# Break in Process line__38 at /home/locochoco/vhdl-materia/risc-v/testbench.vhd line 42
-# End time: 14:45:18 on Jul 11,2023, Elapsed time: 0:00:48
+#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
+# Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of alu.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of alu.vhd was successful.
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Failure: NO ERRORS: Simulation succeeded
+#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
+# Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+vsim -i -l msim_transcript work.testbench
+# End time: 14:25:27 on Jul 21,2023, Elapsed time: 0:05:53
+# Errors: 1, Warnings: 47
+# vsim -i -l msim_transcript work.testbench 
+# Start time: 14:25:27 on Jul 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_std_unsigned(body)
+# Loading work.testbench(test)
+# Loading work.top(test)
+# Loading work.riscvsingle(struct)
+# Loading work.controller(struct)
+# Loading work.maindec(behave)
+# Loading work.aludec(behave)
+# Loading ieee.std_logic_arith(body)
+# Loading work.datapath(struct)
+# Loading work.flopr(asynchronous)
+# Loading work.adder(behave)
+# Loading work.mux2(behave)
+# Loading work.regfile(behave)
+# Loading work.extend(behave)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu(fast)
+# Loading work.mux3(behave)
+# Loading ieee.std_logic_textio(body)
+# Loading work.imem(behave)
+# Loading work.dmem(behave)
+add wave -position insertpoint sim:/testbench/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Failure: NO ERRORS: Simulation succeeded
+#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
+# Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+# Compile of alu.vhd was successful with warnings.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu(fast)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Failure: NO ERRORS: Simulation succeeded
+#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
+# Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+vsim -i -l msim_transcript work.testbench
+# End time: 14:28:37 on Jul 21,2023, Elapsed time: 0:03:10
 # Errors: 1, Warnings: 44
-# Closing project /home/locochoco/vhdl-materia/risc-v/riscvsingle.mpf
-# reading /nix/store/h0nnnjkhl3hzgq9nb3dh289nwxdmi9d1-quartus-prime-lite-unwrapped-20.1.1.720/modelsim_ase/linuxaloem/../modelsim.ini
-# Loading project riscvsingle
+# vsim -i -l msim_transcript work.testbench 
+# Start time: 14:28:37 on Jul 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_std_unsigned(body)
+# Loading work.testbench(test)
+# Loading work.top(test)
+# Loading work.riscvsingle(struct)
+# Loading work.controller(struct)
+# Loading work.maindec(behave)
+# Loading work.aludec(behave)
+# Loading ieee.std_logic_arith(body)
+# Loading work.datapath(struct)
+# Loading work.flopr(asynchronous)
+# Loading work.adder(behave)
+# Loading work.mux2(behave)
+# Loading work.regfile(behave)
+# Loading work.extend(behave)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu(fast)
+# Loading work.mux3(behave)
+# Loading ieee.std_logic_textio(body)
+# Loading work.imem(behave)
+# Loading work.dmem(behave)
+add wave -position insertpoint sim:/testbench/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Failure: NO ERRORS: Simulation succeeded
+#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
+# Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+# Compile of extend.vhd was successful.
+# Compile of extend.vhd was successful with warnings.
+# Compile of extend.vhd was successful with warnings.
+vsim -i -l msim_transcript work.testbench
+# End time: 14:38:43 on Jul 21,2023, Elapsed time: 0:10:06
+# Errors: 1, Warnings: 47
+# vsim -i -l msim_transcript work.testbench 
+# Start time: 14:38:43 on Jul 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_std_unsigned(body)
+# Loading work.testbench(test)
+# Loading work.top(test)
+# Loading work.riscvsingle(struct)
+# Loading work.controller(struct)
+# Loading work.maindec(behave)
+# Loading work.aludec(behave)
+# Loading ieee.std_logic_arith(body)
+# Loading work.datapath(struct)
+# Loading work.flopr(asynchronous)
+# Loading work.adder(behave)
+# Loading work.mux2(behave)
+# Loading work.regfile(behave)
+# Loading work.extend(behave)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu(fast)
+# Loading work.mux3(behave)
+# Loading ieee.std_logic_textio(body)
+# Loading work.imem(behave)
+# Loading work.dmem(behave)
+add wave -position insertpoint sim:/testbench/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Failure: NO ERRORS: Simulation succeeded
+#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
+# Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful with warnings.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript work.testbench
+# End time: 14:41:19 on Jul 21,2023, Elapsed time: 0:02:36
+# Errors: 1, Warnings: 46
+# vsim -i -l msim_transcript work.testbench 
+# Start time: 14:41:19 on Jul 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_std_unsigned(body)
+# Loading work.testbench(test)
+# Loading work.top(test)
+# Loading work.riscvsingle(struct)
+# Loading work.controller(struct)
+# Loading work.maindec(behave)
+# Loading work.aludec(behave)
+# Loading ieee.std_logic_arith(body)
+# Loading work.datapath(struct)
+# Loading work.flopr(asynchronous)
+# Loading work.adder(behave)
+# Loading work.mux2(behave)
+# Loading work.regfile(behave)
+# Loading work.extend(behave)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu(fast)
+# Loading work.mux3(behave)
+# Loading ieee.std_logic_textio(body)
+# Loading work.imem(behave)
+# Loading work.dmem(behave)
+add wave -position insertpoint sim:/testbench/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Failure: NO ERRORS: Simulation succeeded
+#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
+# Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful with warnings.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of regfile.vhd failed with 4 errors.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# 18 compiles, 1 failed with 4 errors.
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful with warnings.
+# Compile of aludec.vhd was successful.
+# Compile of adder.vhd was successful with warnings.
+# Compile of alu.vhd was successful with warnings.
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful with warnings.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful with warnings.
+# Compile of dmem.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# Compile of regfile.vhd failed with 4 errors.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 1 failed with 4 errors.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# Compile of regfile.vhd failed with 4 errors.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 1 failed with 4 errors.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# Compile of regfile.vhd failed with 4 errors.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 1 failed with 4 errors.
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful with warnings.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# Compile of regfile.vhd failed with 1 errors.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 1 failed with 1 error.
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful with warnings.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# Compile of regfile.vhd failed with 1 errors.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 1 failed with 1 error.
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful with warnings.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of extend.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of riscvsingle.vhd was successful.
+# Compile of testbench.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript work.testbench
+# End time: 14:47:04 on Jul 21,2023, Elapsed time: 0:05:45
+# Errors: 1, Warnings: 52
+# vsim -i -l msim_transcript work.testbench 
+# Start time: 14:47:04 on Jul 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_std_unsigned(body)
+# Loading work.testbench(test)
+# Loading work.top(test)
+# Loading work.riscvsingle(struct)
+# Loading work.controller(struct)
+# Loading work.maindec(behave)
+# Loading work.aludec(behave)
+# Loading ieee.std_logic_arith(body)
+# Loading work.datapath(struct)
+# Loading work.flopr(asynchronous)
+# Loading work.adder(behave)
+# Loading work.mux2(behave)
+# Loading work.riscv_pkg(body)
+# Loading work.regfile(behave)
+# Loading work.extend(behave)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu(fast)
+# Loading work.mux3(behave)
+# Loading ieee.std_logic_textio(body)
+# Loading work.imem(behave)
+# Loading work.dmem(behave)
+add wave -position insertpoint sim:/testbench/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 5  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 1  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 6  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/dmem1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 7  Instance: /testbench/dut/rvsingle/dp/mainalu
+# ** Failure: NO ERRORS: Simulation succeeded
+#    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
+# Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42

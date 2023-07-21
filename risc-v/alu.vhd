@@ -4,15 +4,17 @@ use IEEE.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
 entity alu is
-	port(a, b: in STD_LOGIC_VECTOR(31 downto 0);
+	generic(width : integer := 32);
+	port(a, b: in STD_LOGIC_VECTOR(width - 1 downto 0);
 			ALUControl: in STD_LOGIC_VECTOR(2 downto 0);
-			ALUResult: buffer STD_LOGIC_VECTOR(31 downto 0);
+			ALUResult: buffer STD_LOGIC_VECTOR(width - 1 downto 0);
 			--Overflow: out STD_LOGIC;
 			Zero: out STD_LOGIC);
 end;
 
 architecture synth of alu is
-	signal S, Bout: STD_LOGIC_VECTOR(31 downto 0);
+	signal S, Bout: STD_LOGIC_VECTOR(width - 1 downto 0);
+	constant AllZeros: STD_LOGIC_VECTOR(width - 1 downto 0) := (others => '0');
 begin
 	Bout <= (not b) when (ALUControl(2) = '1') else b;
 	S <= a + Bout + ALUControl(2);
@@ -24,11 +26,11 @@ begin
 			when "001" => ALUResult <= a - b;
 			when "010" => ALUResult <= a and b;
 			when "011" => ALUResult <= a or b;
-			when "101" => ALUResult <= ("0000000000000000000000000000000" & S(31));
-			when others => ALUResult <= X"00000000";
+			when "101" => ALUResult <= (0 => S(width - 1),others => '0');
+			when others => ALUResult <= (others => '0');
 		end case;
 	end process;
-	Zero <= '1' when (ALUResult = X"00000000") else '0';
+	Zero <= '1' when (ALUResult = AllZeros) else '0';
 	-- overflow circuit
 	--process(all) begin
 	--	case ALUControl(2 downto 1) is
