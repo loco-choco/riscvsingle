@@ -59,6 +59,22 @@ package riscv_pkg is
 		ALUResult, WriteData: buffer STD_LOGIC_VECTOR(RISCV_Data_Width - 1 downto 0);
 		ReadData: in STD_LOGIC_VECTOR(31 downto 0));
   end component;
+  component maindec
+	port(op: in STD_LOGIC_VECTOR(6 downto 0);
+		ResultSrc: out STD_LOGIC_VECTOR(1 downto 0);
+		MemWrite: out STD_LOGIC;
+		Branch, ALUSrc: out STD_LOGIC;
+		RegWrite, Jump: out STD_LOGIC;
+		ImmSrc: out STD_LOGIC_VECTOR(1 downto 0);
+		ALUOp: out STD_LOGIC_VECTOR(1 downto 0));
+  end component;
+  component aludec
+	port(opb5: in STD_LOGIC;
+		funct3: in STD_LOGIC_VECTOR(2 downto 0);
+		funct7b5: in STD_LOGIC;
+		ALUOp: in STD_LOGIC_VECTOR(1 downto 0);
+		ALUControl: out STD_LOGIC_VECTOR(2 downto 0));
+  end component;
 --functions
   function to_integer (constant vec: STD_LOGIC_VECTOR) return integer;
   function "+" (constant a: STD_LOGIC_VECTOR; constant b: STD_LOGIC_VECTOR) return STD_LOGIC_VECTOR;
