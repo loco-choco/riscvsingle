@@ -2115,3 +2115,5 @@ run
 # ** Failure: NO ERRORS: Simulation succeeded
 #    Time: 195 ns  Iteration: 1  Process: /testbench/line__38 File: /home/locochoco/riscvsingle/risc-v/testbench.vhd
 # Break in Process line__38 at /home/locochoco/riscvsingle/risc-v/testbench.vhd line 42
+# End time: 15:22:27 on Jul 21,2023, Elapsed time: 0:16:24
+# Errors: 1, Warnings: 42
