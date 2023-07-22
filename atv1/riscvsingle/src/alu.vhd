@@ -17,7 +17,8 @@ architecture synth of alu is
 	constant AllZeros: STD_LOGIC_VECTOR(width - 1 downto 0) := (others => '0');
 begin
 	Bout <= (not b) when (ALUControl(2) = '1') else b;
-	S <= a + Bout + ALUControl(2);
+	S <= a + Bout + ALUControl(2);-- essa linha faz com que o rtl tenha um componente de soma que, baseado na figura da ALU, eh desnecessario
+	-- seria entao possivel refazer essa arquitetura objetivando aproveitar a soma a + b para determinar S(width - 1)
 
 	-- alu function
 	process(ALUControl, a, b, S) begin

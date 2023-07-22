@@ -16,7 +16,7 @@ architecture behave of imem is
 				STD_LOGIC_VECTOR(width - 1 downto 0);
 	-- initialize memory from file
 	impure function init_ram_hex return ramtype is
-		file text_file : text open read_mode is "../risc-v/riscvtest.txt";
+		file text_file : text open read_mode is "../src/riscvtest.txt";
 		variable text_line : line;
 		variable ram_content : ramtype;
 		variable i : integer := 0;
