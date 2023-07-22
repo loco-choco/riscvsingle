@@ -1,70 +1,13 @@
-/home/locochoco/vhdl-materia/riscvsingle/src/mux3.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/mux3.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux3
--- Compiling architecture behave of mux3
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/aludec.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/aludec.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity aludec
--- Compiling architecture behave of aludec
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/datapath.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/datapath.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package riscv_pkg
--- Compiling entity datapath
--- Compiling architecture struct of datapath
-** Warning: /home/locochoco/vhdl-materia/riscvsingle/src/datapath.vhd(67): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/imem.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/imem.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD_UNSIGNED
--- Loading package std_logic_textio
--- Loading package riscv_pkg
--- Compiling entity imem
--- Compiling architecture behave of imem
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/maindec.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/maindec.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity maindec
--- Compiling architecture behave of maindec
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/riscvsingle.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/riscvsingle.vhd
+/home/locochoco/riscvsingle/atv14/riscvsingle/src/dmem.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/dmem.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package riscv_pkg
--- Compiling entity riscvsingle
--- Compiling architecture struct of riscvsingle
+-- Compiling entity dmem
+-- Compiling architecture behave of dmem
 
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/alu.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/alu.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity alu
--- Compiling architecture synth of alu
-** Warning: /home/locochoco/vhdl-materia/riscvsingle/src/alu.vhd(30): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/flopr.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/flopr.vhd
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/flopr.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/flopr.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -73,17 +16,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity flopr
 -- Compiling architecture asynchronous of flopr
 
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/dmem.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/dmem.vhd
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/flopenr.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/flopenr.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD_UNSIGNED
--- Loading package riscv_pkg
--- Compiling entity dmem
--- Compiling architecture behave of dmem
+-- Loading package std_logic_arith
+-- Compiling entity flopenr
+-- Compiling architecture asynchronous of flopenr
 
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/regfile.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/regfile.vhd
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/regfile.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/regfile.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -92,7 +34,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity regfile
 -- Compiling architecture behave of regfile
 
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/testbench.vhd
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/testbench.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -102,24 +44,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity testbench
 -- Compiling architecture test of testbench
 
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/extend.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/extend.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity extend
--- Compiling architecture behave of extend
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/adder.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package riscv_pkg
--- Compiling entity adder
--- Compiling architecture behave of adder
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/riscv_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/riscv_pkg.vhd
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/riscv_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/riscv_pkg.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -128,25 +53,33 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling package body riscv_pkg
 -- Loading package riscv_pkg
 
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/top.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/top.vhd
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/adder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD_UNSIGNED
+-- Loading package riscv_pkg
+-- Compiling entity adder
+-- Compiling architecture behave of adder
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/extend.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/extend.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity extend
+-- Compiling architecture behave of extend
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/top.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/top.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
 -- Loading package riscv_pkg
 -- Compiling entity top
 -- Compiling architecture test of top
 
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/mux2.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux2
--- Compiling architecture behave of mux2
-
-} {} {}} /home/locochoco/vhdl-materia/riscvsingle/src/controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/vhdl-materia/riscvsingle/src/controller.vhd
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/controller.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -154,5 +87,78 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package riscv_pkg
 -- Compiling entity controller
 -- Compiling architecture struct of controller
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/mux2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture behave of mux2
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/mux3.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/mux3.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux3
+-- Compiling architecture behave of mux3
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/aludec.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/aludec.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity aludec
+-- Compiling architecture behave of aludec
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/datapath.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package riscv_pkg
+-- Compiling entity datapath
+-- Compiling architecture struct of datapath
+** Warning: /home/locochoco/riscvsingle/atv14/riscvsingle/src/datapath.vhd(67): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/imem.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/imem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package riscv_pkg
+-- Compiling entity imem
+-- Compiling architecture behave of imem
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/maindec.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/maindec.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity maindec
+-- Compiling architecture behave of maindec
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/riscvsingle.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/riscvsingle.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package riscv_pkg
+-- Compiling entity riscvsingle
+-- Compiling architecture struct of riscvsingle
+
+} {} {}} /home/locochoco/riscvsingle/atv14/riscvsingle/src/alu.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/locochoco/riscvsingle/atv14/riscvsingle/src/alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alu
+-- Compiling architecture synth of alu
+** Warning: /home/locochoco/riscvsingle/atv14/riscvsingle/src/alu.vhd(29): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
 
 } {} {}}
