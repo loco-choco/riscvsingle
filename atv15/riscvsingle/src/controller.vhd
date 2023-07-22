@@ -20,7 +20,7 @@ architecture struct of controller is
 		port(op: in STD_LOGIC_VECTOR(6 downto 0);
 			ResultSrc: out STD_LOGIC_VECTOR(1 downto 0);
 			MemWrite: out STD_LOGIC;
-			Branch, ALUSrc: out STD_LOGIC;
+			Branch, BNE, ALUSrc: out STD_LOGIC;
 			RegWrite, Jump: out STD_LOGIC;
 			ImmSrc: out STD_LOGIC_VECTOR(1 downto 0);
 			ALUOp: out STD_LOGIC_VECTOR(1 downto 0));
@@ -35,9 +35,10 @@ architecture struct of controller is
 	
 	signal ALUOp: STD_LOGIC_VECTOR(1 downto 0);
 	signal Branch: STD_LOGIC;
+	signal BNE: STD_LOGIC;
 begin
-	md: maindec port map(op, ResultSrc, MemWrite, Branch,
+	md: maindec port map(op, ResultSrc, MemWrite, Branch, BNE,
 							ALUSrc, RegWrite, Jump, ImmSrc, ALUOp);
 	ad: aludec port map(op(5), funct3, funct7b5, ALUOp, ALUControl);
-	PCSrc <= (Branch and Zero) or Jump;
+	PCSrc <= (Branch and (BNE xor Zero)) or Jump;
 end;

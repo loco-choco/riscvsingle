@@ -63,7 +63,7 @@ package riscv_pkg is
 	port(op: in STD_LOGIC_VECTOR(6 downto 0);
 		ResultSrc: out STD_LOGIC_VECTOR(1 downto 0);
 		MemWrite: out STD_LOGIC;
-		Branch, ALUSrc: out STD_LOGIC;
+		Branch, BNE, ALUSrc: out STD_LOGIC;
 		RegWrite, Jump: out STD_LOGIC;
 		ImmSrc: out STD_LOGIC_VECTOR(1 downto 0);
 		ALUOp: out STD_LOGIC_VECTOR(1 downto 0));
