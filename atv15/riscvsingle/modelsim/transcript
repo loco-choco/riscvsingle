@@ -1,0 +1,73 @@
+# vcom -93 -work work {/home/locochoco/riscvsingle/atv14/riscvsingle/src/controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:02 on Jul 21,2023
+# vcom -reportprogress 300 -93 -work work /home/locochoco/riscvsingle/atv14/riscvsingle/src/controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package riscv_pkg
+# -- Compiling entity controller
+# -- Compiling architecture struct of controller
+# ** Warning: /home/locochoco/riscvsingle/atv14/riscvsingle/src/controller.vhd(40): Cannot associate port "Jump" of mode OUT with port "Jump" of mode BUFFER.
+# End time: 22:14:02 on Jul 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {/home/locochoco/riscvsingle/atv14/riscvsingle/src/datapath.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:02 on Jul 21,2023
+# vcom -reportprogress 300 -93 -work work /home/locochoco/riscvsingle/atv14/riscvsingle/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package riscv_pkg
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# ** Warning: /home/locochoco/riscvsingle/atv14/riscvsingle/src/datapath.vhd(66): Cannot associate port "q" of mode OUT with port "PC" of mode BUFFER.
+# ** Warning: /home/locochoco/riscvsingle/atv14/riscvsingle/src/datapath.vhd(67): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/locochoco/riscvsingle/atv14/riscvsingle/src/datapath.vhd(72): Cannot associate port "rd2" of mode OUT with port "WriteData" of mode BUFFER.
+# End time: 22:14:02 on Jul 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vcom -93 -work work {/home/locochoco/riscvsingle/atv14/riscvsingle/src/adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:02 on Jul 21,2023
+# vcom -reportprogress 300 -93 -work work /home/locochoco/riscvsingle/atv14/riscvsingle/src/adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package riscv_pkg
+# -- Compiling entity adder
+# -- Compiling architecture behave of adder
+# End time: 22:14:02 on Jul 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/locochoco/riscvsingle/atv14/riscvsingle/src/regfile.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:03 on Jul 21,2023
+# vcom -reportprogress 300 -93 -work work /home/locochoco/riscvsingle/atv14/riscvsingle/src/regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package riscv_pkg
+# -- Compiling entity regfile
+# -- Compiling architecture behave of regfile
+# End time: 22:14:03 on Jul 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Compile of alu.vhd was successful with warnings.
+# Compile of extend.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of datapath.vhd was successful with warnings.
+# Compile of maindec.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of controller.vhd was successful.
+# Compile of riscvsingle.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of top.vhd was successful.
+# Compile of flopenr.vhd was successful.
+# Compile of riscv_pkg.vhd was successful.
+# Compile of testbench.vhd was successful.
+# 18 compiles, 0 failed with no errors.
