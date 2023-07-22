@@ -3,10 +3,10 @@ use IEEE.STD_LOGIC_1164.all;
 use WORK.riscv_pkg.all;
 
 entity riscvsingle is
-	generic(width: integer := 32);
+	generic(width:integer := 32);
 	port(clk, reset: in STD_LOGIC;
 		PC: out STD_LOGIC_VECTOR(width - 1 downto 0);
-		Instr: in STD_LOGIC_VECTOR(width - 1 downto 0);
+		Instr: in STD_LOGIC_VECTOR(31 downto 0);
 		MemWrite: out STD_LOGIC;
 		ALUResult, WriteData: out STD_LOGIC_VECTOR(width - 1 downto 0);
 		ReadData: in STD_LOGIC_VECTOR(width - 1 downto 0));
@@ -24,8 +24,7 @@ architecture struct of riscvsingle is
 			ImmSrc:			out STD_LOGIC_VECTOR(1 downto 0);
 			ALUControl:		out STD_LOGIC_VECTOR(2 downto 0));
 	end component;
-	component datapath
-	  generic(width : integer := width);
+	component datapath generic(width:integer);
 		port(clk, reset:	in STD_LOGIC;
 			ResultSrc:		in STD_LOGIC_VECTOR(1 downto 0);
 			PCSrc, ALUSrc:	in STD_LOGIC;
@@ -34,7 +33,7 @@ architecture struct of riscvsingle is
 			ALUControl:		in STD_LOGIC_VECTOR(2 downto 0);
 			Zero:			out STD_LOGIC;
 			PC:				out STD_LOGIC_VECTOR(width - 1 downto 0);
-			Instr:			in STD_LOGIC_VECTOR(width - 1 downto 0);
+			Instr:			in STD_LOGIC_VECTOR(31 downto 0);
 			ALUResult, WriteData:	out STD_LOGIC_VECTOR(width - 1 downto 0);
 			ReadData:		in STD_LOGIC_VECTOR(width - 1 downto 0));
 	end component;

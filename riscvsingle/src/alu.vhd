@@ -14,7 +14,7 @@ end;
 
 architecture synth of alu is
 	signal S, Bout: STD_LOGIC_VECTOR(width - 1 downto 0);
-	constant Zeros: STD_LOGIC_VECTOR(width - 1 downto 0) := (others => '0');
+	constant AllZeros: STD_LOGIC_VECTOR(width - 1 downto 0) := (others => '0');
 begin
 	Bout <= (not b) when (ALUControl(2) = '1') else b;
 	S <= a + Bout + ALUControl(2);
@@ -26,20 +26,20 @@ begin
 			when "001" => ALUResult <= a - b;
 			when "010" => ALUResult <= a and b;
 			when "011" => ALUResult <= a or b;
-			when "101" => ALUResult <= (0 => S(width - 1), others => '0');
+			when "101" => ALUResult <= (0 => S(width - 1),others => '0');
 			when others => ALUResult <= (others => '0');
 		end case;
 	end process;
-	Zero <= '1' when (ALUResult = Zeros) else '0';
+	Zero <= '1' when (ALUResult = AllZeros) else '0';
 	-- overflow circuit
 	--process(all) begin
 	--	case ALUControl(2 downto 1) is
 	--		when "01" => Overflow <=
-	--					(a(width - 1) and b(31) and (not (S(31)))) or
-	--					((not a(width - 1)) and (not b(31)) and S(31));
+	--					(a(31) and b(31) and (not (S(31)))) or
+	--					((not a(31)) and (not b(31)) and S(31));
 	--		when "11" => Overflow <=
-	--					((not a(width - 1)) and b(31) and S(31)) or
-	--					(a(width - 1) and (not b(31)) and (not S(31)));
+	--					((not a(31)) and b(31) and S(31)) or
+	--					(a(31) and (not b(31)) and (not S(31)));
 	--		when others => Overflow <= '0';
 	--	end case;
 	--end process;

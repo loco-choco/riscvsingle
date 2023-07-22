@@ -8,7 +8,6 @@ entity extend is
 end;
 
 architecture behave of extend is
-
 	alias instrStart: STD_LOGIC is instr(31);
 begin
 	process(instr, immsrc) begin

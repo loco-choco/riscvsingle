@@ -8,23 +8,24 @@ entity extend is
 end;
 
 architecture behave of extend is
+	alias instrStart: STD_LOGIC is instr(31);
 begin
 	process(instr, immsrc) begin
 		case immsrc is
 			-- I-type
 			when "00" =>
-				immext <= (31 downto 12 => instr(31)) & instr(31 downto 20);
+				immext <= (31 downto 12 => instrStart) & instr(31 downto 20);
 			-- S-types (stores)
 			when "01" =>
-				immext <= (31 downto 12 => instr(31)) &
+				immext <= (31 downto 12 => instrStart) &
 				instr(31 downto 25) & instr(11 downto 7);
 			-- B-type (branches)
 			when "10" =>
-				immext <= (31 downto 12 => instr(31)) & instr(7) & instr(30
+				immext <= (31 downto 12 => instrStart) & instr(7) & instr(30
 			downto 25) & instr(11 downto 8) & '0';
 			-- J-type (jal)
 			when "11" =>
-				immext <= (31 downto 20 => instr(31)) &
+				immext <= (31 downto 20 => instrStart) &
 				instr(19 downto 12) & instr(20) &
 				instr(30 downto 21) & '0';
 			when others =>
